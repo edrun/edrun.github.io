@@ -1,6 +1,12 @@
-在使用github 克隆自己的项目时，出现一下问题
+---
+layout: post
+title: 应用jekyll构建基于github page的博客
+category: linux
+---
 
+h2. 在使用github 克隆自己的项目时，出现一下问题
 
+<pre>
 hl@hl-NV57H:~$ git clone git@github.com:edrun/edrun.github.com.git
 Cloning into 'edrun.github.com'...
 The authenticity of host 'github.com (204.232.175.90)' can't be established.
@@ -13,18 +19,27 @@ hl@hl-NV57H:~$ cd ~/.ssh
 hl@hl-NV57H:~/.ssh$ ls
 known_hosts  known_hosts.old  mer-qt-creator-rsa  mer-qt-creator-rsa.pub
 hl@hl-NV57H:~/.ssh$ 
+</pre>
 
-原来没有添加ssh-key
+h2. 原来没有添加ssh-key
+<pre>
 ssh -T git@github.com
 cd ~/.ssh
+</pre>
 
+h2. 将里面的内容添加到github账户中
+</pre>
 gedit id_rsa.pub
-将里面的内容添加到github账户中
+</pre>
 
-测试
+h2. 测试
+<pre>
 ssh -T git@github.com
 Hi edrun! You've successfully authenticated, but GitHub does not provide shell access.
+</pre>
+h2. OK ！！
 
-OK ！！
+<pre>
 git clone git@github.com:edrun/edrun.github.com.git
+</pre>
 

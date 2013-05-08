@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 应用jekyll构建基于github page的博客
+title: 给github添加ssh key
 category: linux
 ---
 
