@@ -121,7 +121,7 @@ sudo apt-get install sysv-rc-conf
 sudo sysv-rc-conf
 </pre>
 
-!/images/article/maven/QQ20130508224450! 
+!/images/article/maven/QQ20130508224450.png! 
 
 h2. 测试
 
