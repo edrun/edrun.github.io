@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 应用jekyll构建基于github page的博客
+title: test1 文章风格
 category: other
 ---
 基于github page的博客好处:
