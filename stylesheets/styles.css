@@ -164,6 +164,10 @@ border: none;
 margin-bottom: 24px;
 }
 
+#content hr {
+margin-left: 100px;
+}
+
 #content ul ul, ol ol, ul ol, ol ul {
 margin-bottom: 0;
 }
