@@ -15,6 +15,7 @@ Goagent无疑是免费资源中较为稳定的，安装地址 "https://code.goog
 h2.开机启动脚本
 
 详细信息见：
+" https://github.com/edrun/autostart/blob/master/goagent
 
 <pre>
 sudo vim gedit /etc/init.d/goagent #加入下面内容

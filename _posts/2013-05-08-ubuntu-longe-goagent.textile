@@ -6,16 +6,17 @@ category: linux
 <script language="javascript" src="/syntaxhighlighter/scripts/shBrushXml.js"></script>
 <script language="javascript" src="/syntaxhighlighter/scripts/shBrushPowerShell.js"></script>
 
+
 将goagent作为开机启动服务
 
 bq. 
-Goagent无疑是免费资源中较为稳定的，安装地址 "https://code.google.com/p/goagent/ 请自行解决。
+Goagent无疑是免费资源中较为稳定的，安装地址 "https://code.google.com/p/goagent/":https://code.google.com/p/goagent/ 请自行解决。
 
 
-h2.开机启动脚本
+h2.  开机启动脚本
 
 详细信息见：
-" https://github.com/edrun/autostart/blob/master/goagent
+"https://github.com/edrun/autostart/blob/master/goagent":https://github.com/edrun/autostart/blob/master/goagent
 
 <pre>
 sudo vim gedit /etc/init.d/goagent #加入下面内容
@@ -127,6 +128,7 @@ h2. 测试
 <pre>
 sudo service goagent start
 </pre>
+
 输出如下：
 <pre>
 hl@hl-NV57H:~$ ps -aux|grep goagent
