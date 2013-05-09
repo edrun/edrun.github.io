@@ -55,6 +55,8 @@ overflow: hidden;*/
 float: left;
 width: 670px;
 margin-left: 30px;
+border-style:solid;
+border-right:thick double #696969;
 }
 
 #sidebar {
