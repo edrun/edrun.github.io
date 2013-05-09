@@ -14,8 +14,8 @@ category: Certification
 h2. <a name="introduction">概述</a>
 
 证书不是目的，发展才是硬道理 ：）
-百度百科上的LPI "LPI":http://baike.baidu.com/view/1073368.htm
-官方网站："LPI.org":http://www.lpi.org/
+百度百科上的LPI  "LPI":http://baike.baidu.com/view/1073368.htm/
+官方网站 "LPI.org":http://www.lpi.org/
 
 欲练此功，必先过了LPI1。
 
@@ -32,7 +32,7 @@ h2. <a name="sing-up">注册用户</a>
 
 千万记住：LPI账户和密码。没这个可是考不了试的哦。
 
-h2. <a name="create-ticket">查找考试点</a>
+h2. <a name="create-ticket">账户状态</a>
 
 # 登录 "https://cs.lpi.org/caf/Xamman/candidate_area":https://cs.lpi.org/caf/Xamman/candidate_area 页面。
 
