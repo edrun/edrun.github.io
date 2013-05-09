@@ -27,7 +27,7 @@ hl@hl-NV57H:~/.ssh$
 h2. 添加ssh-key
 
 <pre>
-ssh -T git@github.com
+ssh-keygen -t rsa -C "your_email@example.com"
 cd ~/.ssh
 </pre>
 
