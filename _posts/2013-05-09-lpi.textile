@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LPI考试认证
-category: Certification
+category: certification
 ---
 <script language="javascript" src="/syntaxhighlighter/scripts/shBrushXml.js"></script>
 <script language="javascript" src="/syntaxhighlighter/scripts/shBrushPowerShell.js"></script>
