@@ -85,6 +85,7 @@ color: #0A67A2;
 
 p {
 margin-bottom: 18px;
+border-right:thick double #ff0000;
 }
 
 li {
