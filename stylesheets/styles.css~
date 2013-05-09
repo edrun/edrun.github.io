@@ -48,7 +48,7 @@ width: 1000px;
 margin: 0 auto;
 padding-top: 30px;
 background: #DCDCDC url(../images/colbg.png) repeat-y;
-overflow: hidden;
+/*overflow: hidden;*/
 }
 
 #content {
