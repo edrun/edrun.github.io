@@ -47,13 +47,13 @@ margin-top: -5px;
 width: 1000px;
 margin: 0 auto;
 padding-top: 30px;
-background: #fff url(../images/colbg.png) repeat-y right 50px;
+background: #fff url(../images/colbg.png) repeat-y right 40px;
 overflow: hidden;
 }
 
 #content {
 float: left;
-width: 700px;
+width: 730px;
 margin-left:30px;
 }
 
