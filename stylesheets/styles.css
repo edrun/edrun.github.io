@@ -11,14 +11,14 @@ header, footer, section, aside, nav, article {
 display: block;
 }
 
-/*body {
+body {
 line-height: 1;
 background: #3C3C3C;
 font-family: Verdana, Arial, Helvetica, sans-serif;
 color: #333;
 font-size: 14px;
 line-height: 18px;
-}*/
+}
 	
 /* layout */
 
