@@ -55,8 +55,11 @@ overflow: hidden;*/
 float: left;
 width: 670px;
 margin-left: 30px;
-border-style:solid;
-border-right:thick double #696969;
+border-style: solid;
+border-top-width: 15px;
+border-right-width: 5px;
+border-bottom-width: 15px;
+border-left-width: 5px;
 }
 
 #sidebar {
