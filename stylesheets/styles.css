@@ -44,9 +44,9 @@ margin-top: -5px;
 
 #main {
 width: 1000px;
-margin: 0 auto;
+margin-right: 230px;
 padding-top: 30px;
-/*background: #FFF url(../images/colbg.png) repeat-y;*/
+background: #FFF url(../images/colbg.png) repeat-y;
 overflow: hidden;
 }
 
