@@ -9,18 +9,16 @@ category: Certification
 # "概述":/#introduction
 # "注册用户":/#sing-up
 # "查找考试点":/#create-ticket
-# "必要的准备工作":/#prerequisites
-# "pom 配置":/#pom-config
-# "发布snapshot和release":/#deploy
 
 
 h2. <a name="introduction">概述</a>
 
 证书不是目的，发展才是硬道理 ：）
-百度百科上的LPI："LPI":http://baike.baidu.com/view/1073368.htm
+百度百科上的LPI "LPI":http://baike.baidu.com/view/1073368.htm
 官方网站："LPI.org":http://www.lpi.org/
 
 欲练此功，必先过了LPI1。
+
 h2. <a name="sing-up">注册用户</a>
 
 首先您需要在 "https://cs.lpi.org/caf/Xamman/register":https://cs.lpi.org/caf/Xamman/register 上，注册一个LPI帐号。
@@ -45,5 +43,5 @@ h2. <a name="create-ticket">查找考试点</a>
 
 h2. 参考资源
 
-"LPI":http://baike.baidu.com/view/1073368.htm
+"LPI":http://baike.baidu.com/view/1073368.htm/
 "LPI.org":http://www.lpi.org/
