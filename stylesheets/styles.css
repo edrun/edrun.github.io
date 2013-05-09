@@ -47,8 +47,7 @@ margin-top: -5px;
 width: 1000px;
 margin: 0 auto;
 padding-top: 30px;
-background: #fff url(../images/colbg.png) repeat-y right 40px;
-
+background: #fff url(../images/colbg.png) repeat-y right 50px;
 overflow: hidden;
 }
 
@@ -56,11 +55,6 @@ overflow: hidden;
 float: left;
 width: 670px;
 margin-left:30px;
-border-style: soft;
-border-top-width: 15px;
-border-right-width: 5px;
-border-bottom-width: 15px;
-border-left-width: 5px;
 }
 
 #sidebar {
