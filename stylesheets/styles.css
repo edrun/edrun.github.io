@@ -41,15 +41,15 @@ margin: 0 auto;
 background: #D5EBF9;
 margin-top: -5px;
 }
-/*
+
 #main {
 width: 1000px;
 margin: 0 auto;
 padding-top: 30px;
-background: #FFF url(../images/colbg.png) repeat-y;
+/*background: #FFF url(../images/colbg.png) repeat-y;*/
 overflow: hidden;
 }
-*/
+
 #content {
 float: left;
 width: 670px;
