@@ -53,13 +53,13 @@ overflow: hidden;
 
 #content {
 float: left;
-width: 720px;
+width: 730px;
 margin-left:30px;
 }
 
 #sidebar {
 float: right;
-padding-left: 20px;
+padding-left: 0px;
 width: 220px;
 }
 
