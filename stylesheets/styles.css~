@@ -53,7 +53,7 @@ overflow: hidden;
 
 #content {
 float: left;
-width: 730px;
+width: 720px;
 margin-left:30px;
 }
 
