@@ -112,6 +112,27 @@ desc: 为什么UFO要吸走奶牛？
 				      GITHUB_USERNAME = "edrun";
 			     </script>
 			      <script src="http://drnicjavascript.rubyforge.org/github_badge/dist/github-badge-launcher.js" type="text/javascript"></script>
+                              <section>
+                              <h2>Related Posts</h2>
+								<ul>
+									{% for post in site.related_posts limit:3 %}
+						  			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+									{% endfor %}
+								</ul>
+							<div id="recentcomments" class="dsq-widget">
+								<h2 class="dsq-widget-title">Recent Comments</h2>
+								<script type="text/javascript" src="http://chxt6896.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"></script>
+							</div>
+                             </section>
+
+                             <section>
+							<h2>Links</h2>
+								<ul>
+									<li><a href="http://coolshell.cn" rel="nofollow">CoolShell</a></li>
+									<li><a href="http://mindhacks.cn" rel="nofollow">刘未鹏|MIND HACKS</a></li>
+									<li><a href="http://www.ruanyifeng.com/blog/" rel="nofollow">阮一峰的网络日志</a></li>
+								</ul>
+                             </section>
 		</aside><!-- end of sidebar -->
 
 	</section><!-- end of #main content and sidebar-->
