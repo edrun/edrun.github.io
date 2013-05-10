@@ -15,8 +15,11 @@ desc: 为什么UFO要吸走奶牛？
     <link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" media="screen" charset="utf-8"/>
     <link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print" charset="utf-8"/>
     <script type="text/javascript" src="/syntaxhighlighter/scripts/shCore.js"></script>
-	<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushJScript.js"></script>
-	<link type="text/css" rel="stylesheet" href="/syntaxhighlighter/styles/shCoreDefault.css"/>
+    <script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript" src="/js/yahoo.js"></script>
+    <script type="text/javascript" src="/js/global.js"></script>	
+    <script type="text/javascript" src="/js/calendar.js"></script>
+    <link type="text/css" rel="stylesheet" href="/syntaxhighlighter/styles/shCoreDefault.css"/>
 	
     <!--[if IE]><script src="/javascripts/html5.js"></script><![endif]-->
 </head>
@@ -59,6 +62,7 @@ desc: 为什么UFO要吸走奶牛？
 			</script>
 		<aside id="sidebar"><!-- sidebar -->
 				<section>
+<!--
 			      <h3>真人不"漏"像</h3>
 			      <img src="/images/fqntxmqee.jpg"/>
 			      <p>Email:<a href="mailto:qledrun@gmail.com">qledrun@gmail.com</a></p>
@@ -67,25 +71,47 @@ desc: 为什么UFO要吸走奶牛？
                     <A HREF="http://weibo.com/u/1888855315?wvr=5&c=spr_web_sq_baidub_weibo_t001"><img src ="/images/weibo.jpg"/></A>
                     <A HREF="http://www.huxiu.com/"><img src ="/images/huxu.png"/></A>
 			      </p>
+-->
+                               <form method="get" action="http://www.google.com/search" target="google_window">
+				<label class="hidden" for="s">Search...</label>
+				<div>	
+				    <input type="text" value="Search..." name="q" id="s" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
+				    <input type="submit" name=”btnG” id="searchsubmit" value="">
+				</div>
+				   <input type="hidden" name="ie" value="UTF-8″ />
+				   <input type="hidden" name="oe" value="UTF-8″ />
+				   <input type="hidden" name="hl" value="zh-CN" />
+				   <input type="hidden" name="domains" value="http://edrun.github.com" />
+				   <input type="hidden" name="sitesearch" value="http://edrun.github.com" />
+				</form>
 			      </section>
+                              
+                              <section>
+                                 <h2>Calendar</h2>
+				 <script language="javascript" type="text/javascript">
+					calendar();
+				 </script>
+                              </section>
 
-					<section>
+
+			      <section>
 				      <h3>Categories</h3>
 				      <ul>
 				        {% for category in site.categories %}
 				        <li><a href="/{{category | first}}.html">{{category | first}} ({{category | last | size }})</a></li>
 				        {% endfor %}
 				      </ul>
-				    </section>
+			      </section>
 				    
-				    <section>
+			      <section>
 				      <div id="github-badge">
 				      </div>
-				     </section>
-				      <script type="text/javascript" charset="utf-8">
+			      </section>
+
+			      <script type="text/javascript" charset="utf-8">
 				      GITHUB_USERNAME = "edrun";
-				      </script>
-				      <script src="http://drnicjavascript.rubyforge.org/github_badge/dist/github-badge-launcher.js" type="text/javascript"></script>
+			     </script>
+			      <script src="http://drnicjavascript.rubyforge.org/github_badge/dist/github-badge-launcher.js" type="text/javascript"></script>
 		</aside><!-- end of sidebar -->
 
 	</section><!-- end of #main content and sidebar-->
