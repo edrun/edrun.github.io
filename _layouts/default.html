@@ -84,27 +84,25 @@ desc: 为什么UFO要吸走奶牛？
 				   <input type="hidden" name="domains" value="http://edrun.github.com" />
 				   <input type="hidden" name="sitesearch" value="http://edrun.github.com" />
 				</form>
-			      </section>
-                              
-                              <section>
+			      
                                  <h2>Calendar</h2>
 				 <script language="javascript" type="text/javascript">
 					calendar();
 				 </script>
-                              </section>
+                              
 
 
-			      <section>
+			      
 				      <h3>Categories</h3>
 				      <ul>
 				        {% for category in site.categories %}
 				        <li><a href="/{{category | first}}.html">{{category | first}} ({{category | last | size }})</a></li>
 				        {% endfor %}
 				      </ul>
-			      </section>
+			      
 				    
 			      
-                              <section>
+                             
                               <h2>Related Posts</h2>
 								<ul>
 									{% for post in site.related_posts limit:3 %}
@@ -115,9 +113,9 @@ desc: 为什么UFO要吸走奶牛？
 								<h2 class="dsq-widget-title">Recent Comments</h2>
 								<script type="text/javascript" src="http://qledrun.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"></script>
 							</div>
-                             </section>
+                             
 
-                             <section>
+                            
 							<h2>Links</h2>
 								<ul>
 									<li><a href="http://coolshell.cn" rel="nofollow">CoolShell</a></li>

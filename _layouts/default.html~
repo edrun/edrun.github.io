@@ -125,7 +125,7 @@ desc: 为什么UFO要吸走奶牛？
 									<li><a href="http://www.ruanyifeng.com/blog/" rel="nofollow">阮一峰的网络日志</a></li>
 								</ul>
                              </section>
-
+<!--
                              <section>
 				      <div id="github-badge">
 				      </div>
@@ -135,6 +135,7 @@ desc: 为什么UFO要吸走奶牛？
 				      GITHUB_USERNAME = "edrun";
 			      </script>
 			      <script src="http://drnicjavascript.rubyforge.org/github_badge/dist/github-badge-launcher.js" type="text/javascript"></script>
+-->
 		</aside><!-- end of sidebar -->
 
 	</section><!-- end of #main content and sidebar-->
