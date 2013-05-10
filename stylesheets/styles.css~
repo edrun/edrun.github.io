@@ -111,13 +111,6 @@ display: block;
 float: center;
 }
 
-nav span {
-display: block;
-float: center;
-margin-left:0px;
-}
-
-
 nav .menu a {
 display: block;
 float: left;
