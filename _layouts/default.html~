@@ -39,10 +39,10 @@ desc: 为什么UFO要吸走奶牛？
         </ul>
       </div>
 -->                                                                                                                                  
-             <span><a title="Home" class="menu" href="/"><img src ="/images/home.png"/></a></span>
-             <span><a title="Archives"  class="menu" href="/blogs.html"><img src ="/images/arch.png"/></a></span>
-             <span><a title="Photos" class="menu" href="http://www.ituji.cn"><img src ="/images/photos.jpg"/></a></span>
-             <span><a title="About" class="menu" href="/about.html"><img src ="/images/person.png"/></a></span>
+             <span><a title="Home"  href="/"><img src ="/images/home.png"/></a></span>
+             <span><a title="Archives"   href="/blogs.html"><img src ="/images/arch.png"/></a></span>
+             <span><a title="Photos"  href="http://www.ituji.cn"><img src ="/images/photos.jpg"/></a></span>
+             <span><a title="About"  href="/about.html"><img src ="/images/person.png"/></a></span>
     </nav><!-- end of top nav -->
 	
 	<section id="main"><!-- #main content and sidebar area -->
