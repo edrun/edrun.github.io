@@ -215,6 +215,25 @@ color: #bbb;
 margin: -15px 0 15px 25px;
 }
 
+#wp-calendar{
+		font-size: 14px;
+    width: 100%;
+}
+#wp-calendar a{
+    color: #a52713;
+}
+#wp-calendar tbody tr td{
+		background-color: #ccc;
+		text-align: center;
+}
+#wp-calendar tbody tr td.pad{
+		background-color: #eae9e4;
+}
+#wp-calendar caption{
+		padding-bottom: 8px;
+}
+
+
 #footer-area {
 background: #696969;
 color: #000;
