@@ -111,7 +111,7 @@ display: block;
 float: center;
 }
 
-nav .menu span {
+nav span {
 display: block;
 float: center;
 }
