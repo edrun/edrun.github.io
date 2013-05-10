@@ -1,5 +1,5 @@
 ---
-author: 0x4c5 
+author: Mr.0x4C5 
 desc: 为什么UFO要吸走奶牛？
 ---
 <!doctype html>
@@ -61,50 +61,53 @@ desc: 为什么UFO要吸走奶牛？
 				SyntaxHighlighter.all();
 			</script>
 
-		<aside id="sidebar"><!-- sidebar -->
-				<section>
-<!--
-			      <h3>真人不"漏"像</h3>
-			      <img src="/images/fqntxmqee.jpg"/>
-			      <p>Email:<a href="mailto:qledrun@gmail.com">qledrun@gmail.com</a></p>
-                    <A HREF="http://www.douban.com"><img src ="/images/douban.png"/></A>
-                    <A HREF="https://plus.google.com"><img src ="/images/gg.png"/></A>
-                    <A HREF="http://weibo.com/u/1888855315?wvr=5&c=spr_web_sq_baidub_weibo_t001"><img src ="/images/weibo.jpg"/></A>
-                    <A HREF="http://www.huxiu.com/"><img src ="/images/huxu.png"/></A>
-			      </p>
--->
-                               <form method="get" action="http://www.google.com/search" target="google_window">
-				<label class="hidden" for="s">Search...</label>
-				<div>	
-				    <input type="text" value="Search..." name="q" id="s" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
-				    <input type="submit" name=”btnG” id="searchsubmit" value="">
-				</div>
-				   <input type="hidden" name="ie" value="UTF-8″ />
-				   <input type="hidden" name="oe" value="UTF-8″ />
-				   <input type="hidden" name="hl" value="zh-CN" />
-				   <input type="hidden" name="domains" value="http://edrun.github.com" />
-				   <input type="hidden" name="sitesearch" value="http://edrun.github.com" />
-				</form>
-			      
-                                 <h2>Calendar</h2>
-				 <script language="javascript" type="text/javascript">
-					calendar();
-				 </script>
-                              
-
-
-			      
-				      <h3>Categories</h3>
-				      <ul>
-				        {% for category in site.categories %}
-				        <li><a href="/{{category | first}}.html">{{category | first}} ({{category | last | size }})</a></li>
-				        {% endfor %}
-				      </ul>
-			      
-				    
-			      
-                             
-                              <h2>Related Posts</h2>
+		<div class="sidebar">
+					<ul>
+						<li>
+							<form method="get" action="http://www.google.com/search" target="google_window">
+								<label class="hidden" for="s">Search...</label>
+								<div>	
+				    			<input type="text" value="Search..." name="q" id="s" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
+				    			<input type="submit" name=”btnG” id="searchsubmit" value="">
+								</div>
+								<input type="hidden" name="ie" value="UTF-8″ />
+								<input type="hidden" name="oe" value="UTF-8″ />
+								<input type="hidden" name="hl" value="zh-CN" />
+								<input type="hidden" name="domains" value="http://qledrun.github.com" />
+								<input type="hidden" name="sitesearch" value="http://qledrun.github.com" />
+							</form>
+							<h2>Calendar</h2>
+								<script language="javascript" type="text/javascript">
+									calendar();
+								</script>
+							<h2>Categories</h2>
+								<ul>
+									{% for category in site.categories %}
+									<li class="cat-item cat-item-{{category | last | size }}"><a href="/category/{{category | first}}/{{category | first}}.html" title="View all posts filed under {{category | first}}">{{category | first}} ({{category | last | size }})</a></li>
+									{% endfor %}
+								</ul>
+							<h2>Archives</h2>
+								<ul>
+									{% for post in site.posts %}
+										{% capture the_year %}
+											{{ post.date|date:"%Y" }}
+										{% endcapture %}
+										{% capture previous_year %}
+											{{ previous_post.date|date:"%Y" }}
+										{% endcapture %}
+	
+								    {% if the_year != previous_year %}
+								      {% assign year_changed = true %}
+								    {% else %}
+								      {% assign year_changed = false %}
+								    {% endif %}
+							      {% if year_changed %}
+							        <li><a href="/archive/{{the_year}}/{{the_year}}.html">{{ the_year }}</a></li>
+							      {% endif %}
+									  {% assign previous_post = post %}
+									{% endfor %}
+								</ul>
+							<h2>Related Posts</h2>
 								<ul>
 									{% for post in site.related_posts limit:3 %}
 						  			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -114,28 +117,16 @@ desc: 为什么UFO要吸走奶牛？
 								<h2 class="dsq-widget-title">Recent Comments</h2>
 								<script type="text/javascript" src="http://qledrun.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"></script>
 							</div>
-                             
-
-                            
 							<h2>Links</h2>
 								<ul>
 									<li><a href="http://coolshell.cn" rel="nofollow">CoolShell</a></li>
 									<li><a href="http://mindhacks.cn" rel="nofollow">刘未鹏|MIND HACKS</a></li>
 									<li><a href="http://www.ruanyifeng.com/blog/" rel="nofollow">阮一峰的网络日志</a></li>
 								</ul>
-                             </section>
-<!--
-                             <section>
-				      <div id="github-badge">
-				      </div>
-			      </section>
-
-			      <script type="text/javascript" charset="utf-8">
-				      GITHUB_USERNAME = "edrun";
-			      </script>
-			      <script src="http://drnicjavascript.rubyforge.org/github_badge/dist/github-badge-launcher.js" type="text/javascript"></script>
--->
-		</aside><!-- end of sidebar -->
+						</li>        
+					</ul>
+				</div>	
+				<div class="clear_float"></div>
 
 	</section><!-- end of #main content and sidebar-->
 	
