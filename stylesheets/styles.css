@@ -108,7 +108,7 @@ line-height: normal;
 
 nav .menu li {
 display: block;
-float: left;
+float: center;
 }
 
 nav .menu a {
