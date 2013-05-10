@@ -203,7 +203,7 @@ color: #0A67A2;
 }
 
 /* sidebar and footer widget blocks */
-
+/*
 aside h3 {
 font-size: 18px;
 color: #0A67A2;
@@ -214,7 +214,44 @@ list-style: square;
 color: #bbb;
 margin: -15px 0 15px 25px;
 }
+*/
+.sidebar{
+    margin: 0 auto;
+    padding: 60px 0 20px 25px;
+    float: left;
+    width: 225px;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    display: inline;
+}
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+.sidebar ul li{
+    padding: 10px 0 10px 0;
+}
+.sidebar h2{
+    font-family: Georgia, sans-serif;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+}
+.sidebar ul ul li{
+    padding: 0;
+    line-height: 20px;
+}
+.sidebar a{
+    color: #5b5b5b;
+}
+.sidebar a:hover{
+    color: #a52713;
+}
 
+#wp-calendar{
+		font-size: 14px;
+    width: 100%;
+}
 #wp-calendar{
 		font-size: 14px;
     width: 100%;

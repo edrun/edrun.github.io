@@ -202,19 +202,10 @@ color: #0A67A2;
 color: #0A67A2;
 }
 
-/* sidebar and footer widget blocks */
-/*
-aside h3 {
-font-size: 18px;
-color: #0A67A2;
-}
-
-aside ul {
-list-style: square;
-color: #bbb;
-margin: -15px 0 15px 25px;
-}
-*/
+/*******************
+ **    Sidebar    **
+ *******************/
+ 
 .sidebar{
     margin: 0 auto;
     padding: 60px 0 20px 25px;
@@ -246,11 +237,6 @@ margin: -15px 0 15px 25px;
 }
 .sidebar a:hover{
     color: #a52713;
-}
-
-#wp-calendar{
-		font-size: 14px;
-    width: 100%;
 }
 #wp-calendar{
 		font-size: 14px;
