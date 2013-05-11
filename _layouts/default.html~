@@ -48,7 +48,7 @@ desc:
          <span><a title="Photos" style="padding-left:40px;" href="http://www.ituji.cn"><img src ="/images/photos.jpg"/></a></span>
          <span><a title="About" style="padding-left:40px;"  href="/about.html"><img src ="/images/person.png"/></a></span>
          
-         <img src="/images/headerimg.jpg" width="1000" height="20"  alt="LPword">
+         <img src="/images/headerimg.jpg" width="1000" height="10"  alt="LPword">
     </nav><!-- end of top nav -->
 	
 	<section id="main"><!-- #main content and sidebar area -->
@@ -193,7 +193,7 @@ desc:
      
             <div>
                   <h4>Copyright</h4>
-				 <p> &copy; 2011 <a href="/">edrun.github.com </a>| power by jekyll | themed by <a href="http://fqntxmqee.github.io" title="fqntxmqee">fqntxmqee</a> | fork <a href="https://github.com/edrun/edrun.github.com" title="fork me">me</a>|
+				 <p> &copy; 2011 <a href="/">Mr.0x4C5</a>| Power by jekyll | themed by <a href="http://fqntxmqee.github.io" title="fqntxmqee">fqntxmqee</a> | fork <a href="https://github.com/edrun/edrun.github.com" title="fork me">me</a>|
                                  <script src="http://s11.cnzz.com/stat.php?id=5315797&web_id=5315797&show=pic" language="JavaScript"></script>
                                  </p>                     
             </div>
