@@ -5,6 +5,7 @@ desc: 为什么UFO要吸走奶牛？
 <!doctype html>
 <html lang="en">
 <head>
+
 	<meta charset="utf-8" />
     {% if page.title != null %}
     <title>{{page.title}} | {{ page.desc }} - {{ page.author }}</title>
