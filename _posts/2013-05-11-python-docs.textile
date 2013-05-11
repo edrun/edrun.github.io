@@ -1,0 +1,14 @@
+---
+layout: post
+title: Python Tips
+category: python
+---
+
+# pydoc -p 8000
+
+然后再浏览器中打开http://localhost:8000/ 即可使用python-docs
+
+# 网页浏览N9
+
+python -m SimpleHTTPServer 8080
+幸福ING~~~
