@@ -124,14 +124,13 @@ desc: 为什么UFO要吸走奶牛？
 
 						     <h2>Recent Posts</h2>
 					             <ul>
-							  {% for post in site.related_posts limit:3 %}
-						          <li>
-                                                            <span>{{ post.date | date: "%Y-%m-%d" }}</span> 
-                                                            &raquo; 
-                                                            <a href="{{post.url}}">{{ post.title }}</a>
+							  {% for post in site.posts limit:3 %}
+                                                          <li>
+                                                              <span>{{post.date | date: "%Y-%m-%d"}}</span>
+                                                              <a href="{{post.url}}">{{post.title}}</a>
                                                           </li>
-							   {% endfor %}
-						      </ul>
+                                                          {% endfor %}
+			                              </ul>
 
 							<div id="recentcomments" class="dsq-widget">
 								<h2 class="dsq-widget-title">Recent Comments</h2>
@@ -141,8 +140,8 @@ desc: 为什么UFO要吸走奶牛？
 
 							<h2>Links</h2>
 								<ul>
-									<li><a href="http://coolshell.cn" rel="nofollow">CoolShell</a></li>
-									<li><a href="http://mindhacks.cn" rel="nofollow">刘未鹏|MIND HACKS</a></li>
+									<li><a href="http://www.matrix67.com/blog/" rel="nofollow">Matrix67</a></li>
+									<li><a href="http://www.huxiu.com/" rel="nofollow">虎嗅网</a></li>
 									<li><a href="http://www.ruanyifeng.com/blog/" rel="nofollow">阮一峰的网络日志</a></li>
 								</ul>
 						</li>        
