@@ -29,7 +29,7 @@ desc:
     <header><!-- header -->
       <h1><a href="/">{{ page.author }}</a></h1>
       <h2>{{ page.desc }}</h2>
-      <img src="/images/headerimg.jpg" width="1000" height="0"  alt="LPword"><!-- header image -->
+      <img src="/images/headerimg.jpg" width="1000" height="5"  alt="LPword"><!-- header image -->
     </header><!-- end of header -->
 	
 	<nav><!-- top nav -->
