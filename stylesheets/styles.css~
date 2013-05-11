@@ -147,10 +147,10 @@ text-shadow: 0px 2px 3px #555;
 
 header>h2 {
 color: #777;
-clear: right;
-float: center;
+/*clear: right;*/
+float: left;
 font-style: italic;
-font-size: 14px;
+font-size: 20px;
 margin: 14px 10px 18px 0;
 }
 
