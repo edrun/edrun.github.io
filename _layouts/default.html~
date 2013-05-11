@@ -48,7 +48,7 @@ desc:
          <span><a title="Photos" style="padding-left:40px;" href="http://www.ituji.cn"><img src ="/images/photos.jpg"/></a></span>
          <span><a title="About" style="padding-left:40px;"  href="/about.html"><img src ="/images/person.png"/></a></span>
          
-         <img src="/images/headerimg.jpg" width="1000" height="10"  alt="LPword">
+         <img src="/images/headerimg.jpg" width="1000" height="9"  alt="LPword">
     </nav><!-- end of top nav -->
 	
 	<section id="main"><!-- #main content and sidebar area -->
