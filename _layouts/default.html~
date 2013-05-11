@@ -126,7 +126,7 @@ desc: 为什么UFO要吸走奶牛？
 					             <ul>
 							  {% for post in site.related_posts limit:3 %}
 						          <li>
-                                                            <span>{{ post.date | date_to_string }}</span> 
+                                                            <span>{{ post.date | date: "%Y-%m-%d" }}</span> 
                                                             &raquo; 
                                                             <a href="{{post.url}}">{{ post.title }}</a>
                                                           </li>
