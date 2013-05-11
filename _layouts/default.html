@@ -76,16 +76,27 @@ desc: 为什么UFO要吸走奶牛？
 								<input type="hidden" name="domains" value="http://qledrun.github.com" />
 								<input type="hidden" name="sitesearch" value="http://qledrun.github.com" />
 							</form>
+
+
 							<h2>Calendar</h2>
 								<script language="javascript" type="text/javascript">
 									calendar();
 								</script>
+
+
 							<h2>Categories</h2>
-								<ul>
+						         <ul>
+<!--
 									{% for category in site.categories %}
 									<li class="cat-item cat-item-{{category | last | size }}"><a href="/category/{{category | first}}/{{category | first}}.html" title="View all posts filed under {{category | first}}">{{category | first}} ({{category | last | size }})</a></li>
 									{% endfor %}
-								</ul>
+-->
+                                                        {% for category in site.categories %}
+				                        <li>
+                                                        <a href="/{{category | first}}.html">{{category | first}} ({{category | last | size }})</a>
+                                                        </li>
+				                        {% endfor %}
+						         </ul>
 <!--
 
 							<h2>Archives</h2>
@@ -114,9 +125,12 @@ desc: 为什么UFO要吸走奶牛？
 						     <h2>Recent Posts</h2>
 							  <ul>
 							     {% for post in site.related_posts limit:3 %}
-						  	     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+						  	     <li>
+                                                               <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+                                                              </li>
 							      {% endfor %}
 							  </ul>
+
 							<div id="recentcomments" class="dsq-widget">
 								<h2 class="dsq-widget-title">Recent Comments</h2>
 								<script type="text/javascript" src="http://qledrun.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"></script>
