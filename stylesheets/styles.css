@@ -10,6 +10,9 @@ padding: 0;
 header, footer, section, aside, nav, article {
 display: block;
 }
+header {
+margin-top: 0px;
+}
 
 body {
 line-height: 1;
