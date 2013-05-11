@@ -125,9 +125,11 @@ desc: 为什么UFO要吸走奶牛？
 						     <h2>Recent Posts</h2>
 					             <ul>
 							  {% for post in site.related_posts limit:3 %}
-						     <li>
-                                                          <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-                                                     </li>
+						          <li>
+                                                            <span>{{ post.date | date_to_string }}</span> 
+                                                            &raquo; 
+                                                            <a href="{{post.url}}">{{ post.title }}</a>
+                                                          </li>
 							   {% endfor %}
 						      </ul>
 
