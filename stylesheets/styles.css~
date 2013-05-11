@@ -10,9 +10,6 @@ padding: 0;
 header, footer, section, aside, nav, article {
 display: block;
 }
-header {
-margin-top: 0px;
-}
 
 body {
 line-height: 1;
@@ -42,7 +39,7 @@ width: 1000px;
 height: 50px;
 margin: 0 auto;
 /*background: #D5EBF9;*/
-background: #3C3C3C;
+background: #DCDCDC;
 margin-top: -2px;
 }
 

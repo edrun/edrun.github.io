@@ -10,9 +10,6 @@ padding: 0;
 header, footer, section, aside, nav, article {
 display: block;
 }
-header {
-margin-top: 0px;
-}
 
 body {
 line-height: 1;
@@ -49,7 +46,7 @@ margin-top: -2px;
 #main {
 width: 1000px;
 margin: 0 auto;
-padding-top: 30px;
+padding-top: 100px;
 /*background: #fff url(../images/colbg.png) repeat-y right 80px;*/
 overflow: hidden;
 }
