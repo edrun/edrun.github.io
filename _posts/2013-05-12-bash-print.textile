@@ -1,0 +1,27 @@
+---
+layout: post
+name: shell-1
+category: shell
+---
+
+h2. Get Pid Var
+
+<p>
+exam.
+
+$pgrep vim #then return pid value
+$cat /proc/$PID/environ #note:$PID is what we get above.
+or
+$cat /proc/$PID/environ|tr '\0' '\n'
+then we can get the format output clear
+</p>
+
+h2. what is tr?
+
+<p>
+Above is one useful example.What does it mean?
+It means: 
+use tr turn the end code '\0' to '\n'
+</p>
+
+
