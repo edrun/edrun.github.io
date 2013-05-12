@@ -21,7 +21,7 @@ Github似乎要比svn麻烦些许，以下只回顾常见的几种用法：
 * 更新单个文件
 <p>git fectch</p>
 <p>git checkout origin/master -- path/to/file</p>
-*git fectch  参考如下链接
+* git fectch  参考如下链接
 <p>"Git Fetch拉取他人分支":http://blog.tsnrose.com/blog/2012/04/18/git-fetch/</p>
 
 h2. 参考
