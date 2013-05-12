@@ -1,19 +1,21 @@
 ---
 layout: post
-title: LPI考试认证
-category: certification
+title: nokia n9 git环境搭建  
+category: github
 ---
 <script language="javascript" src="/syntaxhighlighter/scripts/shBrushXml.js"></script>
 <script language="javascript" src="/syntaxhighlighter/scripts/shBrushPowerShell.js"></script>
 
 # "概述":/#introduction
-# "注册用户":/#sing-up
-# "查找考试点":/#create-ticket
+# "easy debian install":/#sing-up
+# "git安装以及使用":/#create-ticket
 
 
 h2. <a name="introduction">概述</a>
 
-证书不是目的，发展才是硬道理 ：）
+<p>
+meego是原生的 linux,当然可以使用很多很多工具。本文基于9+easy debian实现，easy debian 就是arm版本缩减。下面给出步骤。
+</p>
 百度百科上的LPI  "LPI":http://baike.baidu.com/view/1073368.htm/
 官方网站 "LPI.org":http://www.lpi.org/
 
