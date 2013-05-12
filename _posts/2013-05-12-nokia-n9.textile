@@ -16,12 +16,10 @@ h2. <a name="introduction">概述</a>
 <p>
 meego是原生的 linux,当然可以使用很多很多工具。本文基于9+easy debian实现，easy debian 就是arm版本缩减。下面给出步骤。
 </p>
-百度百科上的LPI  "LPI":http://baike.baidu.com/view/1073368.htm/
-官方网站 "LPI.org":http://www.lpi.org/
 
-欲练此功，必先过了LPI1。
 
-h2. <a name="sing-up">注册用户</a>
+h2. <a name="sing-up">easy debian install</a>
+
 
 首先您需要在 "https://cs.lpi.org/caf/Xamman/register":https://cs.lpi.org/caf/Xamman/register 上，注册一个LPI帐号。
 
@@ -34,7 +32,7 @@ h2. <a name="sing-up">注册用户</a>
 
 千万记住：LPI账户和密码。没这个可是考不了试的哦。
 
-h2. <a name="create-ticket">账户状态</a>
+h2. <a name="create-ticket">git install and usage</a>
 
 # 登录 "https://cs.lpi.org/caf/Xamman/candidate_area":https://cs.lpi.org/caf/Xamman/candidate_area 页面。
 
