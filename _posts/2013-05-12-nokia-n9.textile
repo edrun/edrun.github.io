@@ -6,11 +6,6 @@ category: github
 <script language="javascript" src="/syntaxhighlighter/scripts/shBrushXml.js"></script>
 <script language="javascript" src="/syntaxhighlighter/scripts/shBrushPowerShell.js"></script>
 
-# "概述":/#introduction
-# "easy debian install":/#sing-up
-# "git安装以及使用":/#create-ticket
-
-
 h2. <a name="introduction">概述</a>
 
 <p>
@@ -28,7 +23,7 @@ h2. <a name="sing-up">easy debian install</a>
 <p>"easy-debian install":http://talk.maemo.org/showthread.php?t=85878 </p>
 
 
-h3. Easy Debian is now packaged to MeeGo Harmattan. 
+ Easy Debian is now packaged to MeeGo Harmattan. 
 
 bq..
 <p>
@@ -42,7 +37,7 @@ Those links provide a lot of information about Easy Debian images, configuration
 详情请看"easy debian wiki":http://talk.maemo.org/showthread.php?t=85878
 </p>
 
-h3. What is Easy Debian Harmattan ?
+ What is Easy Debian Harmattan ?
 
 bq..
 <p>
@@ -52,7 +47,7 @@ Easy Debian Harmattan needs PR1.2 / PR1.3 and works with :
 ** - Bluetooth keyboard (with or not btinput from Nokia Store to pair it with your Nokia N9/N950) and Nokia N950's physical keyboard.
 </p>
 
-h3. 那么什么是Harmattan 的easy debian呢？
+ 那么什么是Harmattan 的easy debian呢？
 
 bq..
 <p>
@@ -75,7 +70,7 @@ bq..
 </p>
 
 
-h3. Download & Installation :
+ Download & Installation :
 
 bq..
 
