@@ -1,6 +1,6 @@
 ---
 layout: post
-name: shell-1
+name: Bash Print
 category: shell
 ---
 
