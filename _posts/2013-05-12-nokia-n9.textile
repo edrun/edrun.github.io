@@ -99,6 +99,7 @@ Install "inception_0.2.5_armel.deb" by tapping with a file manager or with "# dp
 *** 如果"开放内核":http://talk.maemo.org/showthread.php?t=81579 已被安装就安装下面三个软件。
 "Inception+opensh":http://talk.maemo.org/showthread.php?t=85238
 "aegisctl":http://talk.maemo.org/showthread.php?t=82991
+
 bq.
 Then type in X-Terminal as user :
 <pre>$ devel-su -c /usr/sbin/pasiv</pre>
