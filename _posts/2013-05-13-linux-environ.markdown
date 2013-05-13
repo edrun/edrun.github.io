@@ -1,10 +1,3 @@
----
-layout: post
-title: 'LINUX环境变量介绍'
-category: shell
-tags:
-   -shell
----
 
 LINUX环境变量介绍
 =================
