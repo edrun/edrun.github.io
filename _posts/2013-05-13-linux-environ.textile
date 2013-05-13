@@ -17,7 +17,7 @@ h2. LINUX环境变量介绍
 
 h2. 环境变量相关文件
 
-# etc/profile
+# /etc/profile
 <p>
    此文件为系统的每个用户设置环境信息,当用户第一次登录时,该文件被执行.
    并从/etc/profile.d目录的配置文件中搜集shell的设置.
