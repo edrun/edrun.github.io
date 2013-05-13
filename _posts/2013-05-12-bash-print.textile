@@ -1,6 +1,6 @@
 ---
 layout: post
-name: Bash Print
+name: 小试牛刀-1
 category: shell
 ---
 
