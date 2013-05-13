@@ -61,7 +61,10 @@ debian桌面软件都可以使用，如：LXDE (桌面环境), OpenOffice, GIMP 
 <p>
 大约有超过29，000个debian包，但局限于arm架构和chroot环境的限制等因素，并不是所有的软件包都能用在arm和nokia N9/N950上。
 </p>
-<p>我们可以从这里找到软件包"easy debian packages":http://www.debian.org/distrib/packages.</p>
+<p>
+	我们可以从这里找到软件包:
+	"easy debian packages":http://www.debian.org/distrib/packages.
+</p>
 <p>
 Easy debian harmanttan要求PR1.2、PR1.3系统，他们可以和一下设备工作：
 # 感谢javispedro提供的xmimd，除了Swype之外，任何meego系统虚拟键盘都能够在Lxde上使用。
