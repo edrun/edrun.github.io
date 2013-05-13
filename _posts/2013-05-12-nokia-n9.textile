@@ -23,7 +23,7 @@ h2. <a name="sing-up">easy debian install</a>
 <p>"easy-debian install":http://talk.maemo.org/showthread.php?t=85878 </p>
 
 
-##  Easy Debian is now packaged to MeeGo Harmattan. 
+<h4>  Easy Debian is now packaged to MeeGo Harmattan. </h4>
 
 bq..
 <p>
@@ -37,16 +37,17 @@ Those links provide a lot of information about Easy Debian images, configuration
 详情请看"easy debian wiki":http://talk.maemo.org/showthread.php?t=85878
 </p>
 
-## What is Easy Debian Harmattan ?
+<h4> What is Easy Debian Harmattan ? </h4>
 
 bq..
-
+<p>
 * It is an easy way to run Debian (armel) inside MeeGo Harmattan (without rebooting and dual boot) by chrooting a Debian image file. Full desktop Debian softwares are available : LXDE (desktop environment), OpenOffice, GIMP (image editor), Java (J2SE), Abiword (text editor), Gnumeric (spreadsheet), Iceweasel / Firefox (with Java and Flash), Icedove / Thunderbird email client, TeXMaker / LaTeX, many programming languages (C/C++, Python, Fortran, Pascal, Ruby, etc), Octave, Scilab, Gnu R, etc. There are approx. 29,000 Debian packages, but not all work on ARM and Nokia N9/N950 (due to chrooting limitations, ARMEL type, etc). "Search for Debian packages here.":http://www.debian.org/distrib/packages
 Easy Debian Harmattan needs PR1.2 / PR1.3 and works with :
 ** - any MeeGo virtual keyboard (thanks to Javispedro xmimd work) when using LXDE, they are translucent except Swype; 
 ** - Bluetooth keyboard (with or not btinput from Nokia Store to pair it with your Nokia N9/N950) and Nokia N950's physical keyboard.
-
- 那么什么是Harmattan 的easy debian呢？
+</p>
+ 
+ <h4>那么什么是Harmattan 的easy debian呢？</h4>
 
 bq..
 
