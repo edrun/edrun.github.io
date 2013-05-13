@@ -23,7 +23,7 @@ h2. <a name="sing-up">easy debian install</a>
 <p>"easy-debian install":http://talk.maemo.org/showthread.php?t=85878 </p>
 
 
- Easy Debian is now packaged to MeeGo Harmattan. 
+##  Easy Debian is now packaged to MeeGo Harmattan. 
 
 bq..
 <p>
@@ -37,7 +37,7 @@ Those links provide a lot of information about Easy Debian images, configuration
 详情请看"easy debian wiki":http://talk.maemo.org/showthread.php?t=85878
 </p>
 
- What is Easy Debian Harmattan ?
+## What is Easy Debian Harmattan ?
 
 bq..
 
