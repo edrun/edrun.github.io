@@ -53,8 +53,13 @@ Easy Debian Harmattan needs PR1.2 / PR1.3 and works with :
 h3. 那么什么是Harmattan 的easy debian呢？
 
 <p>
-它是一种通过chroot环境加载debian镜像文件到meego harmattan上，以此来运行armel debian系统，而无需重启手机或者双重启动的简易方式。全部的
-debian桌面软件都可以使用，如：LXDE (桌面环境), OpenOffice, GIMP (图像处理，很强大), Java (J2SE), Abiword (文档编辑), Gnumeric (数据表处理), Iceweasel / Firefox (with Java and Flash), Icedove / Thunderbird 邮件客户端, TeXMaker / LaTeX, 很多的程序语言 (C/C++, Python, Fortran, Pascal, Ruby, 等等), Octave, Scilab, Gnu R, 等等.大约有超过29，000个debian包，但局限于arm架构和chroot环境的限制等因素，并不是所有的软件包都能用在arm和nokia N9/N950上。
+它是一种通过chroot环境加载debian镜像文件到meego harmattan上，以此来运行armel debian系统，而无需重启手机或者双重启动的简易方式。
+</p>
+<p>
+debian桌面软件都可以使用，如：LXDE (桌面环境), OpenOffice, GIMP (图像处理，很强大), Java (J2SE), Abiword (文档编辑), Gnumeric (数据表处理), Iceweasel / Firefox (with Java and Flash), Icedove / Thunderbird 邮件客户端, TeXMaker / LaTeX, 很多的程序语言 (C/C++, Python, Fortran, Pascal, Ruby, 等等), Octave, Scilab, Gnu R, 等等.
+</p>
+<p>
+大约有超过29，000个debian包，但局限于arm架构和chroot环境的限制等因素，并不是所有的软件包都能用在arm和nokia N9/N950上。
 </p>
 <p>我们可以从这里找到软件包"easy debian packages":http://www.debian.org/distrib/packages.</p>
 <p>
