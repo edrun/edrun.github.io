@@ -94,30 +94,31 @@ $info coreutils 'tr invocation'
 
 h2. 应用小例子
 
-# 去除oops.txt里面的重复的小写字符
+* 除oops.txt里面的重复的小写字符
 <pre> 
 $tr -s "[a-z]"<oops.txt >result.txt 
 !/images/tr/tr-s.png!
 </pre>
 
 
-# 删除空行 
+* 除空行 
 <pre>$tr -s "[\012]" < plan.txt </pre>
 <p>or</p>
 <pre>$tr -s ["\n"] < plan.txt </pre>
 
-# 有时需要删除文件中的^M，并代之以换行 
+* 时需要删除文件中的^M，并代之以换行 
 <pre>$tr -s "[\015]" "[\n]" < file</pre>
 <p>or</p>
 <pre>$tr -s "[\r]" "[\n]" < file </pre>
 
-# 小写替换成大写 
+* 写替换成大写 
 <pre>$cat a.txt |tr "[a-z]" "[A-Z]" >b.txt </pre>
 <p>
 !/images/tr/tr-low-case.png!
 </p>
-# 删除指定字符 
-* 一个星期的日程表。
+*    删除指定字符
+**
+一个星期的日程表。
 ** 任务是从其中删除所有数字，只保留日期。日期有大写，也有小写格式。因此需指定两个字符范围[a-z]和[A-Z]，命令:
 <pre>$tr -cs "[a-z][A-Z]" "[\012*]" </pre>
 <p>
@@ -127,8 +128,8 @@ bq.
 原文件如下，后跟tr命令： 
 <pre>$tr -cs "[a-z][A-Z]" "[\012*]" <diary.txt </pre>
 
-# 转换控制字符 
-* tr的第一个功能就是转换控制字符，特别是从dos向UNIX下载文件时，忘记设置ftp关于回车换行转换的选项时更是如此。cat -v filename 显示控制字符。 
+* 转换控制字符
+** tr的第一个功能就是转换控制字符，特别是从dos向UNIX下载文件时，忘记设置ftp关于回车换行转换的选项时更是如此。cat -v filename 显示控制字符。 
 <pre>
 $cat -v stat.txt 
 box aa^^^^^12^M 
@@ -148,7 +149,7 @@ tr -s "[\015][\032]" "\n" <stat.tmp
 tr -s "[\011]" "[\040*]" <input.file 
 </pre>
 
-# 替换passwd文件中所有冒号，代之以tab键，可以增加可读性
+* 替换passwd文件中所有冒号，代之以tab键，可以增加可读性
 <pre>
 tr -s "[:]" "[\011]" < /etc/passwd 
 </pre>
@@ -157,19 +158,19 @@ tr -s "[:]" "[\011]" < /etc/passwd
 tr -s "[:]" "[\t]" < /etc/passwd 
 </pre>
 
-# 使路径可读
+* 使路径可读
 <p>
 如果用 echo $PATH 或者 echo $LD_LIBRARY_PATH 等类似的命令来显示路径信息的话，我们看到的将会是一大堆用冒号连接在一起的路径， tr命令可以把这些冒号转换为回车，这样，这些路径就具有很好的可读性了
 <pre>
 echo $PATH | tr ":" "\n"
 </pre>
 </p>
-# 在vi内使用所有这些命令！只要记住：在tr命令前要加上您希望处理的行范围和感叹号 （！），如
+* 在vi内使用所有这些命令！只要记住：在tr命令前要加上您希望处理的行范围和感叹号 （！），如
 <pre>
 ：1,$!tr -d '\t'
  #美元符号表示最后一行）。 
 </pre>
-# 当有人给您发送了一个在 Mac OS 或 DOS/Windows 机器上创建的文本文件时，您会发现tr非常有用。
+* 当有人给您发送了一个在 Mac OS 或 DOS/Windows 机器上创建的文本文件时，您会发现tr非常有用。
 <p>
 如果没有将文件保存为使用 UNIX 换行符来表示行结束这种格式，则需要将这样的文件转换成本机 UNIX 格式，否则一些命令实用程序不会正确地处理这些文件。Mac OS 的行尾以回车字符(\r)结束，许多文本处理工具将这样的文件作为一行来处理。为了纠正这个问题，可以用下列技巧：
 <pre>
