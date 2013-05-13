@@ -30,6 +30,7 @@ h2. <a name="sing-up">easy debian install</a>
 
 h3. Easy Debian is now packaged to MeeGo Harmattan. 
 
+bq..
 <p>
 It follows Qole (Alan Bruce) previous work : Chroot Scripts for Harmattan Open Mode (where there was a manual "Easy" Debian installation for MeeGo Harmattan), Easy Debian for Fremantle (Maemo 5), Easy Debian for Diablo (Maemo 4) and Easy Debian for Maemo. 
 See also the Easy Debian Wiki. 
@@ -43,6 +44,7 @@ Those links provide a lot of information about Easy Debian images, configuration
 
 h3. What is Easy Debian Harmattan ?
 
+bq..
 <p>
 It is an easy way to run Debian (armel) inside MeeGo Harmattan (without rebooting and dual boot) by chrooting a Debian image file. Full desktop Debian softwares are available : LXDE (desktop environment), OpenOffice, GIMP (image editor), Java (J2SE), Abiword (text editor), Gnumeric (spreadsheet), Iceweasel / Firefox (with Java and Flash), Icedove / Thunderbird email client, TeXMaker / LaTeX, many programming languages (C/C++, Python, Fortran, Pascal, Ruby, etc), Octave, Scilab, Gnu R, etc. There are approx. 29,000 Debian packages, but not all work on ARM and Nokia N9/N950 (due to chrooting limitations, ARMEL type, etc). "Search for Debian packages here.":http://www.debian.org/distrib/packages
 Easy Debian Harmattan needs PR1.2 / PR1.3 and works with :
@@ -52,27 +54,30 @@ Easy Debian Harmattan needs PR1.2 / PR1.3 and works with :
 
 h3. 那么什么是Harmattan 的easy debian呢？
 
+bq..
 <p>
-它很简便地通过chroot环境加载debian镜像文件到meego harmattan平台上，以此来运行armel debian系统，而无需重启手机或双启动。
+* 它很简便地通过chroot环境加载debian镜像文件到meego harmattan平台上，以此来运行armel debian系统，而无需重启手机或双启动。
 </p>
 <p>
-所有的debian桌面软件都能使用，如：LXDE (桌面环境), OpenOffice, GIMP (图像处理，很强大), Java (J2SE), Abiword (文档编辑), Gnumeric (数据表处理), Iceweasel / Firefox (with Java and Flash), Icedove / Thunderbird 邮件客户端, TeXMaker / LaTeX, 很多的程序语言 (C/C++, Python, Fortran, Pascal, Ruby, 等等), Octave, Scilab, Gnu R, 等等.
+* 所有的debian桌面软件都能使用，如：LXDE (桌面环境), OpenOffice, GIMP (图像处理，很强大), Java (J2SE), Abiword (文档编辑), Gnumeric (数据表处理), Iceweasel / Firefox (with Java and Flash), Icedove / Thunderbird 邮件客户端, TeXMaker / LaTeX, 很多的程序语言 (C/C++, Python, Fortran, Pascal, Ruby, 等等), Octave, Scilab, Gnu R, 等等.
 </p>
 <p>
-大约有超过29，000个debian包，由于受arm架构和chroot环境的等因素限制，并不是所有的软件包都能在arm和nokia N9/N950上使用。
+* 大约有超过29，000个debian包，由于受arm架构和chroot环境的等因素限制，并不是所有的软件包都能在arm和nokia N9/N950上使用。
 </p>
 <p>
-	我们可以从这里找到软件包:
+* 我们可以从这里找到软件包:
 	"easy debian packages":http://www.debian.org/distrib/packages.
 </p>
 <p>
-Easy debian harmanttan要求PR1.2、PR1.3系统，他们可以和一下设备工作：
-# 感谢javispedro提供的xmimd，除了Swype之外，任何meego系统虚拟键盘都能够在Lxde上使用。
-# 蓝牙键盘（需要借助商城btinput软件修复），Nokia N950物理键盘。
+* Easy debian harmanttan要求PR1.2、PR1.3系统，他们可以和一下设备工作：
+** 感谢javispedro提供的xmimd，除了Swype之外，任何meego系统虚拟键盘都能够在Lxde上使用。
+** 蓝牙键盘（需要借助商城btinput软件修复），Nokia N950物理键盘。
 </p>
 
 
 h3. Download & Installation :
+
+bq..
 
 <p>
 For using Open Mode Kernel instead of Inception, see post #154.
