@@ -72,8 +72,10 @@ bq.
 h2. Download & Installation :
 
 bq.
-* For using Open Mode Kernel instead of Inception, see post #154.
-** A) Easier installation :
+* 
+For using Open Mode Kernel instead of Inception, see post #154.
+**
+ A) Easier installation :
 Install Inception, see item B-1.
 Use MeeCatalog (available from Nokia Store), enable the "Community Share Repository" (from rzr), update, update. Then search for "easy-deb-chroot" and install version 1.1.0.
 or 
@@ -81,7 +83,8 @@ or
 * 使用开放模式代替Inception的,"请移步#154":http://talk.maemo.org/showpost.php?p=1256057&postcount=154
 
 
-** A）更简便的安装：
+** 
+A）更简便的安装：
 安装Inception请见网站item B-1处。
 使用"Meego源":http://store.ovi.com.cn/content/220215 
 （见诺基亚商城），激活"社区共享源"，更新。然后搜索'esay-deb-chroot',安装1.1版本。
@@ -101,6 +104,7 @@ bq.
 If you want, download Inception+opensh+aegisctl together here (Inception.zip zipped file).
 Unzip the .deb files to some directory (e.g., "/home/user") in your Nokia N9/N950.
 Install "inception_0.2.5_armel.deb" by tapping with a file manager or with "# dpkg -i inception_0.2.5_armel.deb" as root in X-Terminal.
+
 *** 
 如果"开放内核":http://talk.maemo.org/showthread.php?t=81579 已被安装就安装下面三个软件。
 "Inception+opensh":http://talk.maemo.org/showthread.php?t=85238
