@@ -137,6 +137,3 @@ bq.
  4) download Easy Debian Harmattan : easy-deb-chroot_1.1.0-1harmattan1_armel.deb. Transfer it to some folder (e.g., "/home/user/") in your Nokia N9/N950 and install it by tapping with a file manager, or by typing "dpkg -i easy-deb-chroot_1.1.0-1harmattan1_armel.deb" as root in X-Terminal.
 
 h2. 参考资源
-
-"LPI":http://baike.baidu.com/view/1073368.htm/
-"LPI.org":http://www.lpi.org/
