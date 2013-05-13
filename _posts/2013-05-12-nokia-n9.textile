@@ -25,7 +25,7 @@ h2. <a name="sing-up">easy debian install</a>
 "easy-debian wiki":http://wiki.maemo.org/Easy_Debian
 <p>
 # Easy Debian is now packaged to MeeGo Harmattan. 
-<p>"链接"：http://talk.maemo.org/showthread.php?t=85878 </p>
+<p>"easy-debian install":http://talk.maemo.org/showthread.php?t=85878 </p>
 
 
 h3. Easy Debian is now packaged to MeeGo Harmattan. 
