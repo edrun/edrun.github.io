@@ -1,7 +1,7 @@
 ---
 layout: post
 name: 小试牛刀-1
-category: shell
+category: bash
 ---
 
 h2. Get Pid Var
