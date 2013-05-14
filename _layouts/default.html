@@ -152,7 +152,7 @@ desc: 如果比诺曹说，我的鼻子会变长，那将会怎样？
 
 						     <h2>近期文章</h2>
 					             <ul>
-							                              {% for post in site.posts limit:3 %}
+							                              {% for post in site.posts limit:1 %}
                                                           <li>
                                                               <span>{{post.date | date: "%Y-%m-%d"}}</span>
                                                               <a href="{{post.url}}">{{post.title}}</a>
