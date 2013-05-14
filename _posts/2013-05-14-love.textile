@@ -1,0 +1,13 @@
+---
+layout: post
+title: Which do you need?
+category: what's life
+---
+
+h2.   沧海
+
+<p>
+* 深圳南澳海湾摄
+</p>
+
+   !/images/ocean.jpg!
