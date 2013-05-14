@@ -1,4 +1,3 @@
-<!--
 <div class='post'>
   <h1><a href='{{page.url}}' style="text-decoration: none;color: #0A67A2;">{{page.title}}</a><span class='date' style="float:right;">{{page.date | date: "%Y-%m-%d"}}</span></h1>
   
@@ -10,11 +9,23 @@
   var disqus_developer = 1;
 </script>
 
+{% if page.previous or page.next %}
+<section id="page_nav">
+  {% if page.previous %}
+  <a href='{{page.previous.url}}'>← Previous</a>
+  {% endif %}
+  {% if page.next %}
+  <a href='{{page.next.url}}'>Next →</a>
+  {% endif %}
+</section>
+{% endif %}
+
 <div id="disqus_thread"></div>
 <script type="text/javascript" src="http://qledrun.disqus.com/embed.js"></script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
--->
+
+<!---0-
 <article>
   <section class="title">
     <h2>{{ page.title }} </h2>
@@ -54,13 +65,3 @@
   {% endif %}
 </article>
 
-{% if page.previous or page.next %}
-<section id="page_nav">
-  {% if page.previous %}
-  <a href='{{page.previous.url}}'>← Previous</a>
-  {% endif %}
-  {% if page.next %}
-  <a href='{{page.next.url}}'>Next →</a>
-  {% endif %}
-</section>
-{% endif %}
