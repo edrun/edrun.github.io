@@ -35,7 +35,7 @@ background: #DCDCDC;
 }
 
 header {
-    float: left;
+    padding-left: 0px;
     background: #3C3C3C;
     width: 2000px;
     height: 100px;
@@ -136,9 +136,7 @@ text-decoration: underline;
 
 /** HEADER */
 
-header {
-padding: 20px 0 0 0;
-}
+
 
 header>h1 {
 float: left;
