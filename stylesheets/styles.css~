@@ -28,7 +28,7 @@ margin: 0 auto;
 margin-top: 0px;
 margin-bottom: 20px;
 border: 3px inset #888;/*边框宽度，内嵌，颜色*/
-background:  #FFF8DC;
+background:  #F5FFFA;
 /* curved border radius */
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
