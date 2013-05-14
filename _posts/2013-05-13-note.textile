@@ -6,17 +6,21 @@ category: life
 
 h2. Do nothing.
 
-p.
-Want to be big big enough,but young young today.
 
-p.
+* Want to be big big enough,but young young today.
+
+
+<p>
 How is your life?
 Who you are true to be?
+</p>
 
-p.
+<p>
 Sucked in heart.
 Failed by style.
+</p>
 
-p.
-Sorry.Yet,I am not a good man.
+
+* Sorry.Yet,I am not a good man.
+
 !/images/man.png!
