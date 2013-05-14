@@ -36,7 +36,7 @@ background:  #FFFAFA;/*snow*/
 
 header {
     padding-left: 0px;
-    background:url('images/header.gif') no-repeat;
+    background: url("/images/header.gif") no-repeat;
     width: 1000px;
     height: 150px;
     margin-bottom: 0px;
