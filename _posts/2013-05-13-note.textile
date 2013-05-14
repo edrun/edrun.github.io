@@ -4,14 +4,14 @@ title: 无暇
 category: life
 ---
 
-h2. Do nothing.Want to be big big enough,but young young today.
+h2. Do nothing.
 
-<p>
-how is your life?who you are true to be?
-Suck in heart.
-Fail by style.
-</p>
+p.Want to be big big enough,but young young today.
 
-h2. 心有洪水，涛涛泛滥
+p.How is your life?
+Who you are true to be?
+Sucked in heart.
+Failed by style.
 
-呼呼大作。
+p.Sorry.Yet,I am not a good man.
+!/images/man.png!
