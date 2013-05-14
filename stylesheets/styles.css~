@@ -13,7 +13,7 @@ display: block;
 
 body {
 line-height: 1;
-background: #FFFAFA;/*snow*/
+background: #888888;/*gray*/
 font-family: Verdana, Arial, Helvetica, sans-serif;
 color: #333;
 font-size: 14px;
@@ -27,8 +27,8 @@ width: 1000px;
 margin: 0 auto;
 margin-top: 0px;
 margin-bottom: 20px;
-border: 3px inset #888;/*边框宽度，内嵌，颜色*/
-background:  #F5FFFA;
+border: 3px solid #888;/*边框宽度，内嵌，颜色*/
+background:  #FFFAFA;/*snow*/
 /* curved border radius */
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
