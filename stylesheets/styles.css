@@ -39,8 +39,9 @@ header {
     background: #3C3C3C;
     width: 1000px;
     height: 150px;
+    margin-top: 50x;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 nav {
