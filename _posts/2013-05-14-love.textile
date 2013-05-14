@@ -1,14 +1,11 @@
 ---
 layout: post
-title: 浮生半日
+title: 
 category: what's life
-tags: 
-	- 海水
-	- love
 ---
 
 <p>
-* 深圳南澳海湾摄
+* 摄于深圳南澳海滩
 </p>
 
    !/images/ocean.jpg!
