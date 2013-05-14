@@ -7,7 +7,7 @@ padding: 0;
 }
 
 /* render html5 elements as block */
-header, footer, section, aside, nav, article {
+footer, section, aside, nav, article {
 display: block;
 }
 
@@ -34,6 +34,10 @@ background: #DCDCDC;
 -webkit-border-radius: 10px;
 }
 
+header {
+    background: #3C3C3C;
+}
+
 nav {
 width: 1000px;
 height: 50px;
@@ -43,11 +47,12 @@ background: #DCDCDC;
 margin-top: -2px;
 }
 
+
 #main {
 width: 1000px;
 margin: 0 auto;
 padding-top: 70px;
-background: #fff url(../images/headerimg.jpg) no-repeat;
+/*background: #fff url(../images/headerimg.jpg) no-repeat;*/
 overflow: hidden;
 }
 
