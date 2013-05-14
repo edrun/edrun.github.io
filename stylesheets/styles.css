@@ -36,6 +36,9 @@ background: #DCDCDC;
 
 header {
     background: #3C3C3C;
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
 }
 
 nav {
