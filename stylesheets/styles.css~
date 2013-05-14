@@ -157,7 +157,7 @@ header>h2 {
 color: #777;
 /*clear: right;*/
 float: left;
-font-style: italic;
+font-style: normal;
 font-size: 20px;
 margin: 14px 10px 18px 40px;
 /*margin: 0;*/
