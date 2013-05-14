@@ -39,7 +39,7 @@ header {
     background: #3C3C3C;
     width: 1000px;
     height: 150px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-left: 0px;
 }
 
@@ -49,7 +49,7 @@ height: 50px;
 margin: 0 auto;
 /*background: #D5EBF9;*/
 background: #3C3C3C;
-margin-top: -2px;
+margin-top: 0px;
 }
 
 
