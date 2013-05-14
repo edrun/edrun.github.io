@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python Tips
-category: python
+category: 脚本编程
 ---
 
 h2.  pydoc -p 8000
