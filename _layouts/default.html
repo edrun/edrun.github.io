@@ -104,10 +104,22 @@ desc: 如果比诺曹说，我的鼻子会变长，那将会怎样？
                                                         </li>
 				                        {% endfor %}
 						         </ul>
-<!--
+
 
 							<h2>Archives</h2>
 								<ul>
+
+                                      {% if page.tags %}
+                                      <span class="tags">
+                                      {% for tag in page.tags %}
+                                      <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+                                       {% endfor %}
+                                      </span>
+                                      {% endif %}
+
+
+
+<!--
 									{% for post in site.posts %}
 										{% capture the_year %}
 											{{ post.date|date:"%Y" }}
@@ -126,12 +138,13 @@ desc: 如果比诺曹说，我的鼻子会变长，那将会怎样？
 							      {% endif %}
 									  {% assign previous_post = post %}
 									{% endfor %}
-								</ul>
 -->
+								</ul>
+
 
 						     <h2>Recent Posts</h2>
 					             <ul>
-							  {% for post in site.posts limit:3 %}
+							                              {% for post in site.posts limit:3 %}
                                                           <li>
                                                               <span>{{post.date | date: "%Y-%m-%d"}}</span>
                                                               <a href="{{post.url}}">{{post.title}}</a>
