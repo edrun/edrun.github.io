@@ -1,9 +1,13 @@
 ---
 layout: post
-title: Which you needs?
+title: Which you need?
 category: life
 ---
 
-h2. A ha.Guitar style
+h2.   Guitar style
 
-!/images/Guitar.jpg!
+<p>
+* I want the middle,ho~
+</p>
+
+   !/images/Guitar.jpg!
