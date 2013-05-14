@@ -29,7 +29,30 @@ desc: 如果比诺曹说，我的鼻子会变长，那将会怎样？
     <header><!-- header -->
       <h1><a href="/">{{ page.author }}</a></h1>
       <h2>{{ page.desc }}</h2>
+      <!--
 
+      <img src="/images/headerimg.jpg" width="1000" height="200"  alt="LPword">
+  -->
+    </header><!-- end of header -->
+	
+	<nav><!-- top nav -->
+<!---
+      <div class="menu">
+        <ul>
+            <li><a href="/"><img src ="/images/home.png"/></a></li>
+            <li><a href="/blogs.html"><img src ="/images/arch.png"/></a></li>
+            <li><a href="http://www.ituji.cn"><img src ="/images/photos.jpg"/></a></li>
+            <li><a href="/about.html"><img src ="/images/person.png"/></a></li>
+        </ul>
+      </div>
+<!--                                                                                                                                  
+         <span><a title="Home"  style="padding-left:50px;" href="/"><img src ="/images/home.png"/></a></span>
+         <span><a title="Archives" style="padding-left:40px;" href="/blogs.html"><img src ="/images/arch.png"/></a></span>
+         <span><a title="Photos" style="padding-left:40px;" href="http://edrun.github.io/gapp/"><img src ="/images/photos.jpg"/></a></span>
+         <span><a title="About" style="padding-left:40px;"  href="/about.html"><img src ="/images/person.png"/></a></span>
+         <!--
+         <img src="/images/headerimg.jpg" width="1000" height="4"  alt="LPword">
+     -->
      <div class="menu">
      	 <ul>
      	 <li><a href="/">主页</a></li>
@@ -54,42 +77,95 @@ desc: 如果比诺曹说，我的鼻子会变长，那将会怎样？
 			</script>
 
 		<div class="sidebar">
-			<ul>
-			   <li>
-				<form method="get" action="http://www.google.com/search" target="google_window">
-				<label class="hidden" for="s">Search...</label>
-				<div>	
-				<input type="text" value="Search..." name="q" id="s" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
-				<input type="submit" name=”btnG” id="searchsubmit" value="">
-				</div>
-				<input type="hidden" name="ie" value="UTF-8″ />
-				<input type="hidden" name="oe" value="UTF-8″ />
-				<input type="hidden" name="hl" value="zh-CN" />
-				<input type="hidden" name="domains" value="http://qledrun.github.com" />
-				<input type="hidden" name="sitesearch" value="http://qledrun.github.com" />
-				</form>
-
-
-				<h2>资源分类</h2>
 					<ul>
+						<li>
+							<form method="get" action="http://www.google.com/search" target="google_window">
+								<label class="hidden" for="s">Search...</label>
+								<div>	
+				    			<input type="text" value="Search..." name="q" id="s" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
+				    			<input type="submit" name=”btnG” id="searchsubmit" value="">
+								</div>
+								<input type="hidden" name="ie" value="UTF-8″ />
+								<input type="hidden" name="oe" value="UTF-8″ />
+								<input type="hidden" name="hl" value="zh-CN" />
+								<input type="hidden" name="domains" value="http://qledrun.github.com" />
+								<input type="hidden" name="sitesearch" value="http://qledrun.github.com" />
+							</form>
 
-                                        {% for category in site.categories %}
-				            <li>
-                                                 <a href="/{{category | first}}.html">{{category | first}} ({{category | last | size }})</a>
-                                            </li>
+                           <!--
+							<h2>日历</h2>
+								<script language="javascript" type="text/javascript">
+									calendar();
+								</script>
+-->
+
+							<h2>资源分类</h2>
+						         <ul>
+<!--
+									{% for category in site.categories %}
+									<li class="cat-item cat-item-{{category | last | size }}"><a href="/category/{{category | first}}/{{category | first}}.html" title="View all posts filed under {{category | first}}">{{category | first}} ({{category | last | size }})</a></li>
+									{% endfor %}
+-->
+                                                        {% for category in site.categories %}
+				                                         <li>
+                                                        <a href="/{{category | first}}.html">{{category | first}} ({{category | last | size }})</a>
+                                                        </li>
 				                        {% endfor %}
-				        </ul>
+						         </ul>
+
+<!--
+							<h2>标签</h2>
+								<ul>
+
+                                      {% if page.tags %}
+                                      <span class="tags">
+                                      {% for tag in page.tags %}
+                                      <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+                                       {% endfor %}
+                                      </span>
+                                      {% endif %}
+
+-->
+
+<!--
+									{% for post in site.posts %}
+										{% capture the_year %}
+											{{ post.date|date:"%Y" }}
+										{% endcapture %}
+										{% capture previous_year %}
+											{{ previous_post.date|date:"%Y" }}
+										{% endcapture %}
+	
+								    {% if the_year != previous_year %}
+								      {% assign year_changed = true %}
+								    {% else %}
+								      {% assign year_changed = false %}
+								    {% endif %}
+							      {% if year_changed %}
+							        <li><a href="/archive/{{the_year}}/{{the_year}}.html">{{ the_year }}</a></li>
+							      {% endif %}
+									  {% assign previous_post = post %}
+									{% endfor %}
+
+								</ul>
+								-->
 
 
-			         <h2>近期文章</h2>
-					  <ul>
-                                          {% for post in site.posts limit:1 %}
-                                               <li>
-                                                   <span>{{post.date | date: "%Y-%m-%d"}}</span>
-                                                   <a href="{{post.url}}">{{post.title}}</a>
-                                               </li>
-                                          {% endfor %}
-			                   </ul>
+						     <h2>近期文章</h2>
+					             <ul>
+							                              {% for post in site.posts limit:1 %}
+                                                          <li>
+                                                              <span>{{post.date | date: "%Y-%m-%d"}}</span>
+                                                              <a href="{{post.url}}">{{post.title}}</a>
+                                                          </li>
+                                                          {% endfor %}
+			                              </ul>
+<!--
+							<div id="recentcomments" class="dsq-widget">
+								<h2 class="dsq-widget-title">Recent Comments</h2>
+								<script type="text/javascript" src="http://qledrun.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"></script>
+							</div>
+-->
 
 							<h2>友情链接</h2>
 								<ul>
@@ -108,7 +184,39 @@ desc: 如果比诺曹说，我的鼻子会变长，那将会怎样？
 		<footer>
 		<section id="footer-area">
 
-			<section id="footer-outer-block">				
+			<section id="footer-outer-block">
+					<!-- <aside class="footer-segment">
+							<h4>Friends</h4>
+								<ul>
+									<li><a href="#">one linkylink</a></li>
+									<li><a href="#">two linkylinks</a></li>
+									<li><a href="#">three linkylinks</a></li>
+								</ul>
+					</aside>end of #first footer segment -->
+<!-- 
+					<aside class="footer-segment">
+							<h4>Awesome Stuff</h4>
+								<ul>
+									<li><a href="#">one linkylink</a></li>
+									<li><a href="#">two linkylinks</a></li>
+									<li><a href="#">three linkylinks</a></li>
+								</ul>
+					</aside>end of #second footer segment -->
+<!-- 
+					<aside class="footer-segment">
+							<h4>Coolness</h4>
+								<ul>
+									<li><a href="#">one linkylink</a></li>
+									<li><a href="#">two linkylinks</a></li>
+									<li><a href="#">three linkylinks</a></li>
+								</ul>
+					</aside>end of #third footer segment -->
+	<!--				
+					<aside class="footer-segment">
+							<h4>Copyright</h4>
+								<p>&copy; 2011 <a href="/">edrun.github.com</p>
+                                <p> <A HREF="mailto:qledrun@gmail.com"><img src ="/images/mailme.png"/></A> </p>
+					</aside> -->
      
             <div>
                   <h4>Copyright</h4>
@@ -145,6 +253,11 @@ desc: 如果比诺曹说，我的鼻子会变长，那将会怎样？
   </script>
 	
 </div><!-- #wrapper -->
+<!-------
+<a href="http://github.com/edrun"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+---->
+<!-- Free template created by http://freehtml5templates.com -->
+
 	
 </body>
 </html>
