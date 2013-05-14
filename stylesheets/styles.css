@@ -38,7 +38,7 @@ header {
     padding-left: 0px;
     background: url("/images/header.gif") no-repeat;
     width: 1000px;
-    height: 150px;
+    height: 170px;
     margin-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -56,7 +56,7 @@ margin-top: 0px;
 #main {
 width: 1000px;
 margin: 0 auto;
-padding-top: 70px;
+padding-top: 50px;
 /*background: #fff url(../images/headerimg.jpg) no-repeat;*/
 overflow: hidden;
 }
