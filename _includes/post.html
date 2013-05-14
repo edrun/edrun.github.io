@@ -10,8 +10,8 @@
 </script>
 
 <div>
-{% if page.previous or page.next %}
-<section id="page_nav">
+  {% if page.previous or page.next %}
+  <section id="page_nav">
   {% if page.previous %}
   <a href='{{page.previous.url}}'>← Previous</a>
   {% endif %}
