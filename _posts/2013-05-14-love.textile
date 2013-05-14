@@ -2,9 +2,9 @@
 layout: post
 title: 浮生半日
 category: what's life
----
-
-h2.   沧海
+tags: 
+	- 海水
+	- love
 
 <p>
 * 深圳南澳海湾摄
