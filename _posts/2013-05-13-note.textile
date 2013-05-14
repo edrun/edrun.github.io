@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cool down the love
-category: life
+category: what's life
 ---
 
 h2. Where is the true line?

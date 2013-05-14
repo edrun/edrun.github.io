@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Which do you need?
-category: life
+category: what's life
 ---
 
 h2.   Guitar style
