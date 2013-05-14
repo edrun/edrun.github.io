@@ -39,9 +39,8 @@ header {
     background: #3C3C3C;
     width: 1000px;
     height: 150px;
-    margin-top: 50x;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 nav {
@@ -141,7 +140,7 @@ text-decoration: underline;
 
 header>h1 {
 float: left;
-margin: 0 0 18px 10px;
+margin: 10px 0 18px 10px;
 width: 600px;
 font-size: 40px;
 line-height: 36px;
@@ -160,8 +159,8 @@ color: #777;
 float: left;
 font-style: italic;
 font-size: 20px;
-/*margin: 14px 10px 18px 0;*/
-margin: 0;
+margin: 14px 10px 18px 0;
+/*margin: 0;*/
 }
 
 /** ARTICLES **/
