@@ -76,7 +76,7 @@ desc: ~#echo $？
 				SyntaxHighlighter.defaults['tab-size'] = 3;
 				SyntaxHighlighter.all();
 			</script>
-
+<!--
 		<div class="sidebar">
 					<ul>
 						<li>
@@ -98,7 +98,7 @@ desc: ~#echo $？
 								<script language="javascript" type="text/javascript">
 									calendar();
 								</script>
--->
+
 
 							<h2>资源分类</h2>
 						         <ul>
@@ -106,7 +106,7 @@ desc: ~#echo $？
 									{% for category in site.categories %}
 									<li class="cat-item cat-item-{{category | last | size }}"><a href="/category/{{category | first}}/{{category | first}}.html" title="View all posts filed under {{category | first}}">{{category | first}} ({{category | last | size }})</a></li>
 									{% endfor %}
--->
+
                                                         {% for category in site.categories %}
 				                                         <li>
                                                         <a href="/{{category | first}}.html">{{category | first}} ({{category | last | size }})</a>
@@ -149,8 +149,7 @@ desc: ~#echo $？
 									{% endfor %}
 
 								</ul>
-								-->
-
+							
 
 						     <h2>近期文章</h2>
 					             <ul>
@@ -166,7 +165,7 @@ desc: ~#echo $？
 								<h2 class="dsq-widget-title">Recent Comments</h2>
 								<script type="text/javascript" src="http://qledrun.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"></script>
 							</div>
--->
+
 
 							<h2>友情链接</h2>
 								<ul>
@@ -220,7 +219,6 @@ desc: ~#echo $？
 					</aside> -->
      
             <div>
-                  <h4>Copyright</h4>
 				 <p> &copy; 2011 <a href="/">Mr.0x4C5</a>| Power by jekyll | themed by <a href="http://fqntxmqee.github.io" title="fqntxmqee">fqntxmqee</a> | fork <a href="https://github.com/edrun/edrun.github.com" title="fork me">me</a>|
                                  <script src="http://s11.cnzz.com/stat.php?id=5315797&web_id=5315797&show=pic" language="JavaScript"></script>
                                  </p>                     
