@@ -34,13 +34,12 @@ or
 
 >
   Python
+  
   $ echo "test" | python -c 'import sys; print sys.stdin.read().encode("rot13")'
-
-
->[用ROT13算法对字符进行加密和解密](http://www.verydemo.com/demo_c128_i76698.html)
 
 参考
 
+>[用ROT13算法对字符进行加密和解密](http://www.verydemo.com/demo_c128_i76698.html)
 >[Rot13 (caesar cipher) rot13加密算法C、C++语言实现](http://www.dreamincode.net/forums/topic/80393-rot13-caesar-cipher/) 
 >
 >[using rot13 and tr command for having an encrypted email address](http://stackoverflow.com/questions/5442436/using-rot13-and-tr-command-for-having-an-encrypted-email-address)
