@@ -33,7 +33,7 @@ t
 @me
 
 I am here.
->[github](http://edrun.github.com)
+>[github](http://github.com/edrun)
 or
 >[+1](https://plus.google.com/u/0/116057609163918027040/posts)
 or follow me
