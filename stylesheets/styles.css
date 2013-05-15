@@ -24,10 +24,10 @@ line-height: 18px;
 /* layout */
 
 #wrapper {
-width: 1000px;
+/*width: 1000px;*/
 margin: 0 auto;
 margin-top: 0px;
-margin-bottom: 20px;
+margin-bottom: 10px;
 border: 0.5px solid #696969;/*边框宽度，内嵌，颜色*/
 background:  #FFFAFA;/*snow*/
 /* curved border radius */
