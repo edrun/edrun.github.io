@@ -18,11 +18,11 @@ o
 u
 >      
 	$cat  work.txt|grep "Support Engineer."
-   >[GreatVision](http://www.gvtv.com.cn)
+   >[GreatVision Co.,Ltd.](http://www.gvtv.com.cn)
     start: 2013-03  end: NULL  Work as a Support Engineer.
 >
 	$cat  work.txt|grep "Soft Engineer."
-   >[Realtek](http://www.realtek.com.tw)
+   >[Realtek Co.,Ltd](http://www.realtek.com.tw)
     start: 2012-02  end: 2012-12 Work as a Soft Engineer.
 
 t
