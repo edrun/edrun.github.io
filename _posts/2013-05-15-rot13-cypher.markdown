@@ -1,6 +1,7 @@
 ---
 title: Rot13法则
 layout: post
+guid:
 tags:
   - rot13
   - shell
@@ -34,7 +35,7 @@ or
 
 >
   Python
-  
+
   $ echo "test" | python -c 'import sys; print sys.stdin.read().encode("rot13")'
 
 参考
