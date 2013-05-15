@@ -31,8 +31,8 @@ margin-bottom: 20px;
 border: 1px solid #888;/*边框宽度，内嵌，颜色*/
 background:  #FFFAFA;/*snow*/
 /* curved border radius */
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
 }
 
 header {
