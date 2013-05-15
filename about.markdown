@@ -2,29 +2,30 @@
 title: about
 layout: page
 ---
-挂齿贼号
+
+a
 >
 	$tr -s "qledrun" "黄庆隆" <网络.name  >中文.name
 
-蛇舞自称
+b
 >
 	$echo "A Linuxer's Guitar shows for python."
 
-郑码形状
+o
 >
 	$echo "|思考|代码|K歌|小忧郁|奋斗|小说|翻译|野心|兰花|小七|"|tee nowdays
 
-来龙去脉
+u
 >      
 	$cat  work.txt|grep "Support Engineer."
-    now->[GreatVision\](http://www.gvtv.com.cn")
+   >[GreatVision](http://www.gvtv.com.cn)
     start: 2013-03  end: NULL  Work as a Support Engineer.
 >
 	$cat  work.txt|grep "Soft Engineer."
-    pre->[Realtek\](http://www.realtek.com.tw)
+   >[Realtek](http://www.realtek.com.tw)
     start: 2012-02  end: 2012-12 Work as a Soft Engineer.
 
-酒仙太白
+t
 >
 	hl@hl-$ less -N 侠客行.txt
 
@@ -35,7 +36,7 @@ layout: page
 	5 救赵挥金锤，邯郸先震惊。千秋二壮士，烜赫大梁城。
 	6 纵死侠骨香，不惭世上英。谁能书阁下，白首太玄经。
 
-有迹可循
+@me
 ><span><a title="Github项目" style="padding-left:15px;" href="https://github.com/edrun"><img src ="/images/github.png"/></a></span>
  <span><a title="给我发email(Gmail)" style="padding-left:15px;" href="mailto:qledrun@gmail.com"><img src ="/images/gmail.png"/></a></span>
  <span><a title="豆瓣网" style="padding-left:15px;" href="http://www.douban.com/people/50127625/"><img src ="/images/douban.png"/></a></span>
