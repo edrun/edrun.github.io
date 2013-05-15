@@ -1,8 +1,5 @@
-destination: ./_site
-server: true
-auto:        true
-lsi:         false
-server_port: 4000
-pygments:    true
-markdown:    redcloth
-permalink:   date
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:day/:title.html
+name: "[shutter release]"
+markdown: rdiscount
