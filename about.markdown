@@ -27,7 +27,7 @@ u
 
 t
 >
-		mail me as follows mail address.
+		email.
 		$echo "dyrqeha@tznvy.pbz" | python -c 'import sys; print sys.stdin.read().encode("rot13")'
 
 @me
