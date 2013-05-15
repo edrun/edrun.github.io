@@ -19,11 +19,13 @@ tags:
 tr实现
 >
   $echo 'fooman@example.com' | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+
 or
 >
   $alias rot13='tr '[A-Za-z]' '[N-ZA-Mn-za-m]''
   $echo 'fooman@example.com' | rot13
 >
+
 其他实现
 >
   Ruby(1.9+)
