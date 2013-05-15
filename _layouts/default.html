@@ -5,6 +5,29 @@ desc: ~#echo $？
 <!doctype html>
 <html lang="en">
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ site.name }}</title>
+    {% endif %}
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <link rel="stylesheet" href="/media/css/fontawesome.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/media/css/fontawesome-ie7.css">
+    <![endif]-->
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+
+<!--
+<head>
 
 	<meta charset="utf-8" />
     {% if page.title != null %}
@@ -22,7 +45,7 @@ desc: ~#echo $？
     <script type="text/javascript" src="/js/calendar.js"></script>
     <link type="text/css" rel="stylesheet" href="/syntaxhighlighter/styles/shCoreDefault.css"/>
 	
-    <!--[if IE]><script src="/javascripts/html5.js"></script><![endif]-->
+    <!--[if IE]><script src="/javascripts/html5.js"></script><![endif]
 </head>
 
 <!--
@@ -266,12 +289,12 @@ desc: ~#echo $？
             <h1><a title="{{ site.name }}" class="" href="/">{{ site.name }}</a></h1>
           </div>
           <nav>
-            <span><a title="Archive" class="icon-list-ul" href="/archive.html"></a></span>
-            <span><a title="Tags" class="icon-tags" href="/tags.html"></a></span>
-            <span><a title="About" class="icon-user" href="/about.html"></a></span>
-            <span><a title="Gallery" class="icon-film" href="http://foto.lhzhang.com"></a></span>
-            <span><a title="Blogroll" class="icon-link" href="/links.html"></a></span>
-            <span><a title="Subscribe" class="icon-rss" href="/atom.xml"></a></span>
+            <span><a title="主页" class="icon-list-ul" href="/"></a></span>
+            <span><a title="英文翻译" class="icon-tags" href="/blog.html"></a></span>
+            <span><a title="项目" class="icon-user" href="http://edrun.github.io/gapp/"></a></span>
+            <span><a title="博客" class="icon-film" href="http://edrun.github.io/picblog/"></a></span>
+            <span><a title="关于我" class="icon-link" href="/about.html"></a></span>
+            <span><a title="订阅" class="icon-rss" href="/atom.xml"></a></span>
           </nav>
         </header>
         <div id="content">
