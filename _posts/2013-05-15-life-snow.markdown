@@ -1,5 +1,5 @@
 ---
-title: Rot13法则
+title: 独奏
 layout: post
 guid:
 tags:
@@ -8,6 +8,7 @@ tags:
   - 孤独
 ---
 
+“
 “与其苟延残喘，不如从容燃烧。”
 
 ——科特•柯本
@@ -16,4 +17,4 @@ tags:
 
 ——孟京辉《柔软》
 >
-<span class="image-1200">[![](/media/files/2013/05/may.jpg)](http://500px.com/photo/29307621)</span>
+<span class="image-1200">[![](/media/files/2013/05/lonely.jpg)](http://500px.com/photo/29307621)</span>
