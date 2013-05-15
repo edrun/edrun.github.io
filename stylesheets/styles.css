@@ -37,11 +37,12 @@ background:  #FFFAFA;/*snow*/
 
 header {
     padding-left: 0px;
-    background: url("/images/header.gif") no-repeat;
-    width: 1000px;
+    /*background: url("/images/header.gif") no-repeat;*/
+    background: url("/images/bg.png") repeat-x;
+    /*width: 1000px;
     height: 170px;
     margin-bottom: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px;*/
 }
 
 nav {
