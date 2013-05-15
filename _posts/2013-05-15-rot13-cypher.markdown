@@ -1,0 +1,46 @@
+---
+title: Rot13法则
+layout: post
+guid:
+tags:
+  - rot13
+  - shell
+  - tr
+---
+
+描述
+
+>
+>[维基](http://zh.wikipedia.org/zh-cn/ROT13)
+
+对于任意x满足以下条件：
+>
+  ROT13(ROT13(x))=ROT26(x)=x
+
+tr实现
+>
+  $echo 'fooman@example.com' | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+
+or
+>
+  $alias rot13='tr '[A-Za-z]' '[N-ZA-Mn-za-m]''
+  $echo 'fooman@example.com' | rot13
+>
+
+其他实现
+>
+  Ruby(1.9+)
+
+  $ ruby -ne 'print $_.tr( "A-Za-z", "N-ZA-Mn-za-m") ' file
+
+>
+  Python
+
+  $ echo "test" | python -c 'import sys; print sys.stdin.read().encode("rot13")'
+
+参考
+
+>[用ROT13算法对字符进行加密和解密](http://www.verydemo.com/demo_c128_i76698.html)
+>[Rot13 (caesar cipher) rot13加密算法C、C++语言实现](http://www.dreamincode.net/forums/topic/80393-rot13-caesar-cipher/) 
+>
+>[using rot13 and tr command for having an encrypted email address](http://stackoverflow.com/questions/5442436/using-rot13-and-tr-command-for-having-an-encrypted-email-address)
