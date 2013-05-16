@@ -7,7 +7,7 @@ tags:
 
 zoom
 
-<span class="image-1200">[![](/media/files/2013/05/hua.jpg)](http://500px.com/photo/29307621)</span>
+<span class="image-1200">[![](/media/files/2013/05/zoom.jpg)](http://500px.com/photo/29307621)</span>
 
 
 
