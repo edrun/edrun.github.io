@@ -3,6 +3,8 @@ title: 404
 layout: page
 ---
 
-Nothing found :( error 404
-人类毁灭地球的证据被火星机房的水金工程师木星二弟的女朋友白羊星阻止了！！！
-But you still can have a [look around](/index.html)
+>Nothing found :( error 404
+
+>人类通过此链接毁灭地球的计划被火星机房的水金工程师木星二弟土星女朋友白羊座成功阻止了！！！
+
+>But you still can have a [look around](/index.html)
