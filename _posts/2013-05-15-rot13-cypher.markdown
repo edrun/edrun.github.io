@@ -39,8 +39,9 @@ or
   $ echo "test" | python -c 'import sys; print sys.stdin.read().encode("rot13")'
 
 参考
+I get 10 times more traffic from [用ROT13算法对字符进行加密和解密] [1] than from
+[Rot13 (caesar cipher) rot13加密算法C、C++语言实现] [2] or [using rot13 and tr command for having an encrypted email address] [3].
 
->[用ROT13算法对字符进行加密和解密](http://www.verydemo.com/demo_c128_i76698.html)
->[Rot13 (caesar cipher) rot13加密算法C、C++语言实现](http://www.dreamincode.net/forums/topic/80393-rot13-caesar-cipher/) 
->
->[using rot13 and tr command for having an encrypted email address](http://stackoverflow.com/questions/5442436/using-rot13-and-tr-command-for-having-an-encrypted-email-address)
+  [1]: http://www.verydemo.com/demo_c128_i76698.html "用ROT13算法对字符进行加密和解密"
+  [2]: http://www.dreamincode.net/forums/topic/80393-rot13-caesar-cipher/ "Rot13 (caesar cipher) rot13加密算法C、C++语言实现"
+  [3]: http://stackoverflow.com/questions/5442436/using-rot13-and-tr-command-for-having-an-encrypted-email-address "using rot13 and tr command for having an encrypted email address"
