@@ -127,11 +127,16 @@ type the root password (default is rootme), then confirm with yes. Then, as user
 <pre>$ /usr/sbin/incept aegisctl_1.3_armel.deb</pre>
 type the root password,
 confirming again the root password.
+***
+然后以user的身份在X终端中输入：$ devel-su -c /usr/sbin/pasiv
+输入root密码，默认为rootme(你也可以自己更改：linux啦~~)，yes确认。然后以user或者root身份输入：$ /usr/sbin/incept aegisctl_1.3_armel.deb
+输入root密码，并再次确认。
 
 bq.
 
 *** 
 2) "Easy Chroot" v0.2 (install this new version) for MeeGo Harmattan, follow the downloading & installing section. I.e., download easy-chroot_0.2.0-1harmattan1_armel.deb and install it in your Nokia N9/N950 by tapping it with a file manager.
+为Meego安装“easy chroot” v0.2版本这个新版本，按照下载和安装栏目来做。下载完成后用文件管理器打开安装。
 
 bq.
 
@@ -139,7 +144,7 @@ bq.
 3) Javispedro solution for using MeeGo virtual keyboard (vkb), now the v1.2 is translucent and works with PR1.2/PR1.3. Download the new xmimd_1.2_armel.deb package to some folder (e.g., "/home/user/") in your Nokia N9/N950 and install it using the X-Terminal :
 <pre>$ devel-su</pre>
 type the root password, then :
-
+Javispedro的meego虚拟键盘解决方案1.2版本已经出来，并且能够被PR1.2,PRE1.3系统使用，将新的xmimd_1.2_armel.deb包下载到手机指定的文件夹内，如/home/user,然后通过x终端安装。命令如下：
 
 <pre># cd ~user</pre>
 <pre># dpkg -i xmimd_1.2_armel.deb</pre>
@@ -148,5 +153,6 @@ bq.
 
 ***
  4) download Easy Debian Harmattan : easy-deb-chroot_1.1.0-1harmattan1_armel.deb. Transfer it to some folder (e.g., "/home/user/") in your Nokia N9/N950 and install it by tapping with a file manager, or by typing "dpkg -i easy-deb-chroot_1.1.0-1harmattan1_armel.deb" as root in X-Terminal.
+下载Easy debian harmattan  easy-deb-chroot_1.1.0-1harmattan1_armel.deb软件包，传送到手机相关文件目录下，如/home/user，通过文件管理器点击打开安装或者以root身份在终端安装，输入：dpkg -i easy-deb-chroot_1.1.0-1harmattan1_armel.deb
 
 h2. 参考资源
