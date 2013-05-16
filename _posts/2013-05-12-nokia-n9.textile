@@ -8,7 +8,8 @@ category: github
 
 h2. <a name="introduction">概述</a>
 
-bq.
+p.
+
 meego是原生的 linux,当然可以使用很多很多工具。本文基于9+easy debian实现，easy debian 就是arm版本缩减。下面给出步骤。
 
 
@@ -26,11 +27,13 @@ h2. <a name="sing-up">easy debian install</a>
 <h4>  Easy Debian is now packaged to MeeGo Harmattan. </h4>
 
 bq.
+
 * It follows Qole (Alan Bruce) previous work : Chroot Scripts for Harmattan Open Mode (where there was a manual "Easy" Debian installation for MeeGo Harmattan), Easy Debian for Fremantle (Maemo 5), Easy Debian for Diablo (Maemo 4) and Easy Debian for Maemo. 
 See also the Easy Debian Wiki. 
 Those links provide a lot of information about Easy Debian images, configuration, etc, being shared between MeeGo and Maemo.
 
 bq. 
+
 ** 现在easy debian 可以被meego harmanttan打包使用。
 它依照Qole(Alan bruce)之前的工作：Harmanttan 开发模式的chroot脚本，能够将一个简易的debian系统安装到meego harmattan、fremantle也就是maemo 5,mameo4还有mameo平台上。
 详情请看"easy debian wiki":http://talk.maemo.org/showthread.php?t=85878
@@ -40,9 +43,11 @@ h4. What is Easy Debian Harmattan ?
 
 
 bq.
+
 * It is an easy way to run Debian (armel) inside MeeGo Harmattan (without rebooting and dual boot) by chrooting a Debian image file. Full desktop Debian softwares are available : LXDE (desktop environment), OpenOffice, GIMP (image editor), Java (J2SE), Abiword (text editor), Gnumeric (spreadsheet), Iceweasel / Firefox (with Java and Flash), Icedove / Thunderbird email client, TeXMaker / LaTeX, many programming languages (C/C++, Python, Fortran, Pascal, Ruby, etc), Octave, Scilab, Gnu R, etc. There are approx. 29,000 Debian packages, but not all work on ARM and Nokia N9/N950 (due to chrooting limitations, ARMEL type, etc). "Search for Debian packages here.":http://www.debian.org/distrib/packages
 
 bq.
+
 Easy Debian Harmattan needs PR1.2 / PR1.3 and works with :
 ** - any MeeGo virtual keyboard (thanks to Javispedro xmimd work) when using LXDE, they are translucent except Swype; 
 ** - Bluetooth keyboard (with or not btinput from Nokia Store to pair it with your Nokia N9/N950) and Nokia N950's physical keyboard.
@@ -64,6 +69,7 @@ h4. 那么什么是Harmattan 的easy debian呢？
 </p>
 
 bq.
+
 * Easy debian harmanttan要求PR1.2、PR1.3系统，他们可以和一下设备工作：
 ** 感谢javispedro提供的"xmimd":http://talk.maemo.org/showthread.php?t=86069，除了Swype之外，任何meego系统虚拟键盘都能够在Lxde上使用。
 ** 蓝牙键盘（需要借助商城"btinput":http://store.ovi.com.cn/content/251514软件修复），Nokia N950物理键盘。
@@ -72,6 +78,7 @@ bq.
 h2. Download & Installation :
 
 bq.
+
 * 
 For using Open Mode Kernel instead of Inception, see post #154.
 **
@@ -91,6 +98,7 @@ A）更简便的安装：
 或者
 
 bq.
+
 ** 
 B) Manual installation:
 The installation has more steps and dependencies because MeeGo Harmattan is more locked than Maemo 4/5 :
@@ -99,6 +107,7 @@ B）手动安装：
 安装过程需要更多的步骤和依赖,因为相比于maemo4/5 Meego有更多的限制。
 
 bq.
+
 *** 
 1) Inception + opensh + aegisctl, even if Harmattan open mode kernel is already installed. 
 If you want, download Inception+opensh+aegisctl together here (Inception.zip zipped file).
@@ -111,6 +120,7 @@ Install "inception_0.2.5_armel.deb" by tapping with a file manager or with "# dp
 "aegisctl":http://talk.maemo.org/showthread.php?t=82991
 
 bq.
+
 Then type in X-Terminal as user :
 <pre>$ devel-su -c /usr/sbin/pasiv</pre>
 type the root password (default is rootme), then confirm with yes. Then, as user or root :
@@ -119,10 +129,12 @@ type the root password,
 confirming again the root password.
 
 bq.
+
 *** 
 2) "Easy Chroot" v0.2 (install this new version) for MeeGo Harmattan, follow the downloading & installing section. I.e., download easy-chroot_0.2.0-1harmattan1_armel.deb and install it in your Nokia N9/N950 by tapping it with a file manager.
 
 bq.
+
 *** 
 3) Javispedro solution for using MeeGo virtual keyboard (vkb), now the v1.2 is translucent and works with PR1.2/PR1.3. Download the new xmimd_1.2_armel.deb package to some folder (e.g., "/home/user/") in your Nokia N9/N950 and install it using the X-Terminal :
 <pre>$ devel-su</pre>
@@ -133,6 +145,7 @@ type the root password, then :
 <pre># dpkg -i xmimd_1.2_armel.deb</pre>
 
 bq.
+
 ***
  4) download Easy Debian Harmattan : easy-deb-chroot_1.1.0-1harmattan1_armel.deb. Transfer it to some folder (e.g., "/home/user/") in your Nokia N9/N950 and install it by tapping with a file manager, or by typing "dpkg -i easy-deb-chroot_1.1.0-1harmattan1_armel.deb" as root in X-Terminal.
 
