@@ -1,5 +1,5 @@
 ---
-title: 'shell passwd 隐藏和显示'
+title: 'date查看系统用时'
 layout: post
 tags:
     - shell
