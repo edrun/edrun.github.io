@@ -10,7 +10,7 @@ tags:
 这里可以找到详细的语法介绍：
 [markdown语法](https://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md)
 
-
+[献给写作者的 Markdown 新手指南](http://jianshu.io/p/q81RER)
 
 
 
