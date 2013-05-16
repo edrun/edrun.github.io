@@ -117,4 +117,25 @@ Javispedro的meego虚拟键盘解决方案1.2版本已经出来，并且能够�
 
 >下载Easy debian harmattan  easy-deb-chroot_1.1.0-1harmattan1_armel.deb软件包，传送到手机相关文件目录下，如/home/user，通过文件管理器点击打开安装或者以root身份在终端安装，输入：dpkg -i easy-deb-chroot_1.1.0-1harmattan1_armel.deb
 
+### install git
+
+点击进入debian chroot：
+	#apt-get update && sudo apt-get install git
+
+添加ssh-key:
+	#su user
+	$ssh-keygen -t rsa -c "mail addr."
+	$cd ~/.ssh
+	$less id_rsa.pub
+	copy上面的内容
+进入github用户主页：
+	setting->ssh scrute->add ssh-key
+name留空，轻点屏幕，粘贴内容即可。
+
+### git使用
+传送门 
+[蒋先生的wordhello](http://www.worldhello.net/gotgithub/03-project-hosting/050-homepage.html)
+[乃之小文](http://edrun.github.io/2013/05/12/git-usage.html)
+
 ### 参考资源
+[mameo wiki & easy-debian wiki](http://wiki.maemo.org/Easy_Debian)
