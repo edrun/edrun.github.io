@@ -1,8 +1,9 @@
 ---
-title: 'Vim之插件管理'
+title: 'tmux使用与配置'
 layout: post
 tags:
-    - vimrc
+    - tmux
+    - screen
 ---
 
 ### tmux
