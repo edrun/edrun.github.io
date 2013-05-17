@@ -72,7 +72,7 @@ tmux目的在于构造一个简单、现代且符合BSD标准类似gnu screen的
 >所以我在本地和远程运行tmux.
 
 - 嵌套tmux
->我用是那个配置管理我嵌套tmux.
+我用是那个配置管理我嵌套tmux.
 1. [.tmux.shared ](https://github.com/justone/dotfiles/blob/personal/.tmux.shared) 文件
 包含我的主机和远程会话共享的绑定和配置。
 2. [.tmux.master](https://github.com/justone/dotfiles/blob/personal/.tmux.master) 包含了我本地会话的特别配置。
