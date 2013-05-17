@@ -6,7 +6,7 @@ tags:
     - screen
 ---
 
-### tmux
+### tmux下载
 [tmux download](http://sourceforge.net/projects/tmux/)
 
 > tmux is a terminal multiplexer, it enables a number of terminals (or windows) to be accessed and controlled from a single terminal. 
