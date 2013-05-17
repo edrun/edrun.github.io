@@ -17,7 +17,7 @@ tmux目的在于构造一个简单、现代且符合BSD标准类似gnu screen的
 
 ###用法
 
- 需要去学会复制粘帖 
+需要去学会复制粘帖 
 
     ctrl+b + [
     tmux #开启tmux
@@ -59,12 +59,14 @@ tmux目的在于构造一个简单、现代且符合BSD标准类似gnu screen的
 译文
 
 - 我的Tmux配置
+
 >我作为screen用户已有相当长的时间了。然而，在不久之前，我发现下一代终端复用器--tmux.
 它不仅能在google上轻易找到，它还具备丰富且便捷的配置语言。
 
 >我已经想到一个很独特的tmux配置，所以我想分享它。
 
 - 背景
+
 >本来，我只是用远程服务器上的tmux配置多个窗口。这很容易为新的远程服务器创建窗口，但
 我必须为每一个远程主机打开一个终端标签，并保持他们打开。我老早就希望能够通过相同的方
 式重新连接我的标签，以便能够连接独立服务器上的窗口。我拟定在mac本地运行tmux，但每
@@ -73,7 +75,8 @@ tmux目的在于构造一个简单、现代且符合BSD标准类似gnu screen的
 >所以我在本地和远程运行tmux.
 
 - 嵌套tmux
-我用是那个配置管理我嵌套tmux.
+
+>我用下面三个配置管理嵌套tmux.
 1. [.tmux.shared ](https://github.com/justone/dotfiles/blob/personal/.tmux.shared) 文件
 包含我的主机和远程会话共享的绑定和配置。
 2. [.tmux.master](https://github.com/justone/dotfiles/blob/personal/.tmux.master) 包含了我本地会话的特别配置。
@@ -83,7 +86,7 @@ tmux目的在于构造一个简单、现代且符合BSD标准类似gnu screen的
 
 - 共享配置
 
-> 注意：
+注意：
 （未完待续）
 
 

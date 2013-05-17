@@ -1,0 +1,164 @@
+---
+title: 'xxdk'
+layout: post
+---
+
+###主界面
+
+Lacuch有5菜单栏目，商城、华数TV、常用程序、所有程序以及系统设置，在商城的主界面显示系统天气预报信息。天气预报显示可以在后台关掉
+
+<span class="image-1200">[![](/media/files/2013/05/pad/1.jpg)]</span>
+
+通过Menu键来改变系统默认壁纸
+<span class="image-1200">[![](/media/files/2013/05/pad/2.png)]</span>
+
+### 商城
+
+进入商城之后，服务器会推送更新提示，用户可选择更新或者取消。需要注意的是，更新安装之后，需重新打开商城应用。类似的应用市场有：
+> 机锋、7po、乐市TV应用市场
+
+<span class="image-1200">[![](/media/files/2013/05/pad/3.jpg)]</span>
+
+**应用商城分为以下四个小栏目**
+
+1. 推荐
+
+一共有两栏，6个推荐的应用，右上角以动态图标的形式来回显示系统推荐的应用
+<span class="image-1200">[![](/media/files/2013/05/pad/3.jpg)]</span>
+
+2. 分类
+
+现在的分类还比较乱，有待细分
+
+<span class="image-1200">[![](/media/files/2013/05/pad/5.jpg)]</span>
+
+3. 搜索
+
+可以关键字或者首字母搜索，最多20字符
+
+<span class="image-1200">[![](/media/files/2013/05/pad/6.jpg)]</span>
+
+4. 宝箱
+
+宝箱中只有三个应用，我们可以透过这几个程式对安装包与应用进行管理
+<span class="image-1200">[![](/media/files/2013/05/pad/7.jpg)]</span>
+
+已下载
+>为在商城里下载安装或未来得及安装的应用。
+用户可以透过OK键来操作：
+对于已经安装的则会弹出卸载窗口，对于未安装的则会弹出安装窗口，通过其他途径安装好的，则会弹出替换提示窗口。
+
+应用更新
+>会推送已安装程式的安装信息，用户可选择性的操作，这里安装的程式没有更新的消息。
+用户可以直接安装
+
+安装包管理器
+>包括应用卸载、应用安装和安装包删除，他们的功能也很显然
+
+<span class="image-1200">[![](/media/files/2013/05/pad/8.jpg)]</span>
+
+
+### 华数ＴＶ
+
+1. 华数ＴＶ主界面
+
+用户可透过遥控器左右上下键进行选中和选择操作，按ＯＫ键则进入相应的栏目
+<span class="image-1200">[![](/media/files/2013/05/pad/9.jpg)]</span>
+
+2. 电影
+
+包含海量大片，在侧栏（左）细分了影视分区和分类，用户可以根据自己的喜好做选择
+<span class="image-1200">[![](/media/files/2013/05/pad/10.jpg)]</span>
+
+3. 电视剧
+
+和电影频道格局差不多一致
+<span class="image-1200">[![](/media/files/2013/05/pad/11.jpg)]</span>
+
+4. 娱乐
+
+<span class="image-1200">[![](/media/files/2013/05/pad/12.jpg)]</span>
+
+5. 新闻
+
+<span class="image-1200">[![](/media/files/2013/05/pad/13.jpg)]</span>
+
+6. 体育
+
+<span class="image-1200">[![](/media/files/2013/05/pad/14.jpg)]</span>
+
+7. 栏目
+
+<span class="image-1200">[![](/media/files/2013/05/pad/15.jpg)]</span>
+
+8. ＶＩＰ清晰专享
+
+２Ｍ以上带宽
+<span class="image-1200">[![](/media/files/2013/05/pad/16.jpg)]</span>
+
+9. 点点乐园
+
+<span class="image-1200">[![](/media/files/2013/05/pad/17.jpg)]</span>
+
+10. 音乐
+
+<span class="image-1200">[![](/media/files/2013/05/pad/18.jpg)]</span>
+
+11. 潮流时尚
+
+<span class="image-1200">[![](/media/files/2013/05/pad/19.jpg)]</span>
+
+11. 其他频道:教育\厂家\在线营业厅\PPTV专区 尚在营业之中
+
+<span class="image-1200">[![](/media/files/2013/05/pad/20.jpg)]</span>
+
+### 常用程序
+
+>常用程序相当于程序的快捷菜单，需要我们手动从所有程式中添加或删除。
+在所有程式中删除一个快捷键按住menu键，会弹出如下窗口
+可以删除快捷方式和应用
+
+<span class="image-1200">[![](/media/files/2013/05/pad/21.jpg)]</span>
+<span class="image-1200">[![](/media/files/2013/05/pad/22.jpg)]</span>
+<span class="image-1200">[![](/media/files/2013/05/pad/23.jpg)]</span>
+
+### 所有程序
+
+顾名思义,这部分包含所用的应用内容
+
+<span class="image-1200">[![](/media/files/2013/05/pad/24.jpg)]</span>
+
+>我们可以透过menu键对程序进行删除或者添加快捷方式到常见程序中，
+这里要非常注意的是，这里的 删除程序 == 卸载程序，我们可以选中
+一个应用然后按Menu，选择删除程序，然后ok，弹出栏中点确定即可。
+
+<span class="image-1200">[![](/media/files/2013/05/pad/25.jpg)]</span>
+
+### 系统设置
+
+<span class="image-1200">[![](/media/files/2013/05/pad/26.jpg)]</span>
+
+网络设置
+
+<span class="image-1200">[![](/media/files/2013/05/pad/27.jpg)]</span>
+
+>可以选择自动或者手动，遥控器的上下左右键就可以操作，很方便
+Wifi无内置，需要外界一个USB网卡 
+
+>语言、输入法
+有中文繁简和英文三种语言格式，输入法有：搜狗和谷歌拼音输入法
+支持第三方输入法安装，如QQ拼音、百度等
+
+
+>日期和时区
+包含全球83个时区
+
+>显示
+可以选择高清或者全高清
+
+>系统升级
+如有系统更新则可以直接在线升级，注意升级过程中不要断电或者断网，以免造成不可挽回的错误。
+
+>系统恢复
+即回到系统初始状态，所有用户数据将被删除接下来主要介绍文件浏览与后台管理。
+
