@@ -34,3 +34,5 @@ fork炸弹（fork bomb）在计算机领域中是一种利用系统调用fork（
 ###参考
 
 [wiki](http://zh.wikipedia.org/wiki/Fork%E7%82%B8%E5%BC%B9#.E5.8E.9F.E7.90.86.E4.B8.8E.E5.BD.B1.E5.93.8D)
+
+[老外的这篇章也很经典:Understanding Bash fork()](http://www.cyberciti.biz/faq/understanding-bash-fork-bomb/)
