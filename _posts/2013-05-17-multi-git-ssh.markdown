@@ -1,8 +1,8 @@
 ---
-title: '多个git帐号同时登录'
 layout: post
+title: 多个git帐号同时登录
 tags:
-	- ssh
+    - ssh
 	- git
 ---
 
