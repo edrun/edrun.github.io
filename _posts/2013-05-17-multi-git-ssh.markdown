@@ -3,7 +3,7 @@ layout: post
 title: '多个git帐号同时登录'
 tags:
     - ssh
-	- git
+    - git
 ---
 
 ### 什么是ssh?
@@ -63,3 +63,4 @@ tags:
 ### 参考
 
 [github多账户使用及多台电脑共用SSH Public/Private Key](http://higrid.net/c-art-github_share_ssh.htm)
+
