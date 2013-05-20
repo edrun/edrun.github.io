@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '多个git帐号同时登录'
+title: 多个git帐号同时登录
 tags:
     - ssh
     - git
@@ -14,12 +14,13 @@ tags:
 
 > 同时在服务端会有一个~/.ssh/authorized_keys文件，里面存放了多个客户端的公钥Public Key(id_rsa.pub)，就表示拥有这些Public Key的客户端就可以通过SSH登陆服务端。
 
+
 ### SSH公钥登陆过程
 
-    客户端发出公钥登陆的请求(ssh user@host)
-    服务端返回一段随机字符串
-    客户端用私钥Private Key(id_rsa)加密这个字符串，再发送回服务端
-    服务端用~/.ssh/authorized_keys里面存储的公钥Public Key去解密收到的字符串。如果成功，就表明这个客户端是可信的，客户端就可以成功登陆
+客户端发出公钥登陆的请求(ssh user@host)
+服务端返回一段随机字符串
+客户端用私钥Private Key(id_rsa)加密这个字符串，再发送回服务端
+服务端用~/.ssh/authorized_keys里面存储的公钥Public Key去解密收到的字符串。如果成功，就表明这个客户端是可信的，客户端就可以成功登陆
 
 > 只要多台电脑上的的公钥Public Key(id_rsa.pub)和私钥Private Key(id_rsa)是一样的，对于服务端来说着其实就是同一个客户端。所以可以通过复制公钥Public Key(id_rsa.pub)和私钥Private Key(id_rsa)到多台电脑来实现共享登陆。
 > "在同一台电脑登录不同的git帐号时会报错，这是由于ssh默认只认
@@ -53,7 +54,8 @@ tags:
 
 > Host随意即可，方便自己记忆，后续在添加remote是还需要用到。 配置完成后，在连接非默认帐号的github仓库时，远程库的地址要对应地做一些修改，比如现在添加second帐号下的一个仓库test，则需要这样添加：
 >
-	git remote add test git@github-second:second/test.git #并非原来的git@github.com:second/test.git
+>
+    git remote add test git@github-second:second/test.git #并非原来的git@github.com:second/test.git
 
 这样每次连接都会使用id_rsa_second与服务器进行连接。
 
@@ -63,4 +65,5 @@ tags:
 ### 参考
 
 [github多账户使用及多台电脑共用SSH Public/Private Key](http://higrid.net/c-art-github_share_ssh.htm)
+
 
