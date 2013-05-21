@@ -1,0 +1,17 @@
+---
+layout: post
+title: 分区tips
+tags:
+    - partion
+    - linux
+---
+
+Now that a blank partition has been set up, the file system can be created. LFS can use any file system recognized by the Linux kernel, but the most common types are ext3 and ext4. The choice of file system can be complex and depends on the characteristics of the files and the size of the partition. For example:
+
+ext2
+is suitable for small partitions that are updated infrequently such as /boot.
+ext3
+is an upgrade to ext2 that includes a journal to help recover the partition's status in the case of an unclean shutdown. It is commonly used as a general purpose file system.
+ext4
+is the latest version of the ext file system family of partition types. It provides several new capabilties including nano-second timestamps, creation and use of very large files (16 TB), and speed improvements.
+Other file sytems, including FAT32, NTFS, ReiserFS, JFS, and XFS are useful for specialized purposes. More information about these file systems can be found at http://en.wikipedia.org/wiki/Comparison_of_file_systems.
