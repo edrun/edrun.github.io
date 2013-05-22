@@ -1,10 +1,9 @@
 ---
 layout: post
-title: 'Part2.4. Mounting the New Partition'
+title: Part2.4. Mounting the New Partition
 tags:
     - lfs
 ---
-
 Part Origin
 
 Now that a file system has been created, the partition needs to be made accessible. In order to do this, the partition needs to be mounted at a chosen mount point. For the purposes of this book, it is assumed that the file system is mounted under /mnt/lfs, but the directory choice is up to you.
@@ -123,4 +122,5 @@ Step3.
 
 
 <span class="image-1200">[![](/media/files/2013/05/vb/fi.jpg)](http://500px.com/photo/29307621)</span>
+
 
