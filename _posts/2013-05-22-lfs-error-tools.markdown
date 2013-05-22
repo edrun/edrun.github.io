@@ -4,7 +4,8 @@ title: tar error
 tags:
     - lfs
     - tools
---
+---
+
 error details
 >
 	lfs:/sources$tar -xvf binutils-2.23.2.tar.bz2 
