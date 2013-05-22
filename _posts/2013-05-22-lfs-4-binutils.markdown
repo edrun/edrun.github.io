@@ -14,9 +14,10 @@ tags:
 >
 	sed -i -e 's/@colophon/@@colophon/' \
        -e 's/doc@cygnus.com/doc@@cygnus.com/' bfd/doc/bfd.texinfo
-
 sed -i -e "sed 用法" ，替换
+
 注意：bfd/doc/bfd.texinfo 在俺的机器上该把texinfo改成info，否则会报info的错
+
 2. The Binutils documentation recommends building Binutils outside of the source directory in a dedicated build directory:
 buinutils文件推荐在源码目录之外建立一个编译目录编译。 
 
@@ -40,10 +41,13 @@ buinutils文件推荐在源码目录之外建立一个编译目录编译。
 The meaning of the configure options:
 
 --prefix=/tools
+
 This tells the configure script to prepare to install the Binutils programs in the /tools directory.
 
 --with-sysroot=$LFS
+
 For cross compilation, this tells the build system to look in $LFS for the target system libraries as needed.
+
 
 --with-lib-path=/tools/lib
 This specifies which library path the linker should be configured to use.
@@ -53,6 +57,7 @@ Because the machine description in the LFS_TGT variable is slightly different th
 
 --disable-nls
 This disables internationalization as i18n is not needed for the temporary tools.
+
 
 --disable-werror
 This prevents the build from stopping in the event that there are warnings from the host's compiler.
@@ -121,34 +126,48 @@ c++filt
 Used by the linker to de-mangle C++ and Java symbols and to keep overloaded functions from clashing
 所使用的连接器来过滤C + +和Java符号，防止重载函数冲突
 
->
+
 elfedit
 Updates the ELF header of ELF files
+
 gprof
 Displays call graph profile data
+
 ld
 A linker that combines a number of object and archive files into a single file, relocating their data and tying up symbol references
+
 ld.bfd
 Hard link to ld
+
 nm
 Lists the symbols occurring in a given object file
+
 objcopy
 Translates one type of object file into another
+
 objdump
 Displays information about the given object file, with options controlling the particular information to display; the information shown is useful to programmers who are working on the compilation tools
+
 ranlib
 Generates an index of the contents of an archive and stores it in the archive; the index lists all of the symbols defined by archive members that are relocatable object files
+
 readelf
 Displays information about ELF type binaries
+
 size
 Lists the section sizes and the total size for the given object files
+
 strings
 Outputs, for each given file, the sequences of printable characters that are of at least the specified length (defaulting to four); for object files, it prints, by default, only the strings from the initializing and loading sections while for other types of files, it scans the entire file
+
 strip
 Discards symbols from object files
+
 libiberty
 Contains routines used by various GNU programs, including getopt, obstack, strerror, strtol, and strtoul
+
 libbfd
 The Binary File Descriptor library
+
 libopcodes
 A library for dealing with opcodes—the “readable text” versions of instructions for the processor; it is used for building utilities like objdump.
