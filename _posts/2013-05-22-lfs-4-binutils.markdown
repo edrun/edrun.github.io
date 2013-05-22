@@ -41,29 +41,42 @@ The meaning of the configure options:
 
 --prefix=/tools
 This tells the configure script to prepare to install the Binutils programs in the /tools directory.
+
 --with-sysroot=$LFS
 For cross compilation, this tells the build system to look in $LFS for the target system libraries as needed.
+
 --with-lib-path=/tools/lib
 This specifies which library path the linker should be configured to use.
+
 --target=$LFS_TGT
 Because the machine description in the LFS_TGT variable is slightly different than the value returned by the config.guess script, this switch will tell the configure script to adjust Binutil's build system for building a cross linker.
+
 --disable-nls
 This disables internationalization as i18n is not needed for the temporary tools.
+
 --disable-werror
 This prevents the build from stopping in the event that there are warnings from the host's compiler.
 
 配置选项的意义
+
 1. --prefix=/tools 告诉配置脚本将binutils安装在/tools目录
+
 2. --with-syschroot=$LFS 告诉构建系统在$LFS寻找目标系统所需要的库文件
+
 3. --with-lib-path=/tools/lib 指定连接器使用的库路径
+
 4. --target=$LFS_TGT 配置机器名，注意gun与gnu别写错了
+
 5. --disable-nls 禁止国际化语言支持，因为i18n是没必要的临时工具
+
 6. --disable-werror 这可以防止因为主机传来的警告使编译停止
 
 4. make 
+
 5. test
 
 Compilation is now complete. Ordinarily we would now run the test suite, but at this early stage the test suite framework (Tcl, Expect, and DejaGNU) is not yet in place. The benefits of running the tests at this point are minimal since the programs from this first pass will soon be replaced by those from the second.
+
 编译已经完成。正常来讲我们需要测试，但这一步为时尚早，因为测试框架（tcl,expect,dejaGUN）都还没有安装好。在这里测试没多大意义，因为这些软件很快被下一步编译得到的软件取代。
 
 6. build on x86_64
@@ -108,6 +121,7 @@ c++filt
 Used by the linker to de-mangle C++ and Java symbols and to keep overloaded functions from clashing
 所使用的连接器来过滤C + +和Java符号，防止重载函数冲突
 
+>
 elfedit
 Updates the ELF header of ELF files
 gprof
