@@ -2,8 +2,8 @@
 layout: post
 title: tar error
 tags:
-	- lfs
-	- tools
+    - lfs
+    - tools
 ---
 
 error details
@@ -35,3 +35,4 @@ Finally,
 	cd $LFS/source
 	tar xxx
 it works!!!
+

@@ -3,7 +3,7 @@ layout: post
 title: binutils安装
 tags:
     - binutils
----、
+---
 步骤：
 
 1. Fix a couple of syntax errors that prevent the documentation from building with Texinfo-5.1
