@@ -1,10 +1,9 @@
 ---
 layout: post
-title: 3.1. Introduction
+title: 3.1.Introduction
 tags:
-	- lfs
+    - lfs
 ---
-
 Part1. Origin
 
 This chapter includes a list of packages that need to be downloaded in order to build a basic Linux system. The listed version numbers correspond to versions of the software that are known to work, and this book is based on their use. We highly recommend against using newer versions because the build commands for one version may not work with a newer version. The newest package versions may also have problems that require work-arounds. These work-arounds will be developed and stabilized in the development version of the book.
@@ -54,4 +53,6 @@ Additionally, starting with LFS-7.0, there is a separate file, md5sums, can be u
 
 >
 	md5sum -c md5sums
+
+
 
