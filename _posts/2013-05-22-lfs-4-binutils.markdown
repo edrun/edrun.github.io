@@ -1,7 +1,8 @@
 ---
 layout: post
-title: binutils安装
+title: LFS1-binutils 安装
 tags:
+    - lfs
     - binutils
 ---
 
