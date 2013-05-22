@@ -2,7 +2,7 @@
 layout: post
 title: 2.4. Mounting the New Partition
 tags:
-	- lfs
+    - lfs
 ---
 
 Part Origin
