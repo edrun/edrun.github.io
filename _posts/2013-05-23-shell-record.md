@@ -10,7 +10,6 @@ tags:
 
 >
     script -t 2> timing.log -a outpu.session
-
     type command;
     ---
     exit
@@ -25,4 +24,30 @@ output用来存放操作的命令。
 >
     scriptreplay timming.log output.session
     这样就可以回放刚才我们的操作了。
+
+还可以发布广播哦，对于多用户的系统比较有用：
+
+term1上：
+>
+    mkfifo scriptfifo
+
+term2上：
+>
+    cat scriptfifo
+
+返回term1:
+>
+    script - scriptfifo
+    type commands;
+
+这样在term2上就可以看到term1的所有动作了，term3,term4也同样处理哦。
+需要注意的是：
+scripfifo 的目录要对，不同的目录需要相对或绝对路径。
+
+
+
+
+
+
+
 
