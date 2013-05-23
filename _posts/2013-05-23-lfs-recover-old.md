@@ -19,13 +19,12 @@ tags:
     cat>>~/.bash_profile<<"EOF"
     >export LFS=/mnt/lfs
     >"EOF"
-
-
     chmod -v a+wt $LFS/source
     chown -v lfs $LFS/source
     chown -v lfs $LFS/tools
     ls -al /tools 查了一下链接还在，ok
     su - lfs
     输入密码即可进入。mark.
+
 
 
