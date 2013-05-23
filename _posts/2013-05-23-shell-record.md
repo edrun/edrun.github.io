@@ -3,7 +3,7 @@ layout: post
 title: 命令行操作录制
 tags:
     - shell
-    - 录制
+    - 回放
 ---
 
 ###自产自销的终端script
