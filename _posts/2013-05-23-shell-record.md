@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 命令行操作录制
 tags:
     - shell
