@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 命令行操作录制
+title: 命令行操作回放和广播
 tags:
     - shell
     - 回放
 ---
 
-###自产自销的终端script
 
 发现一个不错的东西：
 
