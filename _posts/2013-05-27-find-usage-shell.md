@@ -1,6 +1,6 @@
 ---
-layout: post
-title: find 用法
+layout:  post
+title:  find用法
 tags:
     - shell
     - find
