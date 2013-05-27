@@ -9,17 +9,18 @@ a
 
 b
 >
-	$echo "A Linuxer's Guitar shows for python."
+    $find /root -type f -path "school" -print
+    /root/school/桂林电子科技大学/信息对抗技术专业"
 
 o
 >
-	$echo "|思考|代码|K歌|小忧郁|奋斗|小说|翻译|野心|兰花|小七|"|tee nowdays
+	$echo "|思考|代码|K歌|吉他|小忧郁|奋斗|小说|翻译|野心|兰花|小七|"|tee nowdays
 
 u
 >      
 	$cat  work.txt|grep "Support Engineer."
    >[GreatVision Co.,Ltd.](http://www.gvtv.com.cn)
-    start: 2013-03  end: NULL  Work as a Support Engineer.
+    start: 2013-03  end: NULL  Work as a Tec. Support Engineer.
 >
 	$cat  work.txt|grep "Soft Engineer."
    >[Realtek Co.,Ltd](http://www.realtek.com.tw)
