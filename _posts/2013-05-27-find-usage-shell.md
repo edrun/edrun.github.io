@@ -1,7 +1,7 @@
 ---
 layout: post
 title: find 用法
-tags；
+tags:
     - shell
     - find
 ---
