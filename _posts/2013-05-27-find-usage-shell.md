@@ -44,9 +44,11 @@ content time
 根据用户来搜索：
 >
     find . -type d hl -print 属性hl的目录
-
+    find . -type f -user hl chown root {} \;改变hl未见属性为root拥有
 exec来执行find命令
 >
     find . -type f -user hl -name "*.c" -exec chown root {} \;
     find . -type f -mtime +10 -name "*.txt" -exec cp {} old \;
     find . -type f -name "*.txt" -exec printf "%s\n" ｛｝\;>>ll.txt//打印收到的文件名称。
+
+

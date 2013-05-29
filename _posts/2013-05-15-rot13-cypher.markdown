@@ -1,5 +1,5 @@
 ---
-title: Rot13法则
+title: tr用法与Rot13法则
 layout: post
 guid:
 tags:
@@ -7,6 +7,36 @@ tags:
   - shell
   - tr
 ---
+
+tr 用法
+
+1.  大写转小写
+
+    echo "RIHFRFYHGGG"|tr 'A-Z' 'a-z'
+
+2. 删除
+
+    echo "hao123.com"|tr -d '0-9'
+
+3. 隔离
+    
+    echo "hao123.com"|tr -d -c '0-9 \n' 删除除了数字之外的字符
+
+4. 加法
+
+    cat sum.txt|echo $[$(tr '\n' '+') 0]
+    注意：
+    echo $[1+2+3+0] = 6
+    tr将换行符转为+，tr之后sum.txt的数字变为，1+2+3+4+5+，这时必须在末尾补上一数字，否则报错。
+    最终的结果是：cat 显示
+    1
+    2
+    3
+    4
+    5
+    tr之后为echo $[1+2+3+4+5+0]
+    最后输出：15
+
 
 描述
 
