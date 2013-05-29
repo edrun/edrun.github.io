@@ -36,7 +36,7 @@ tr 用法
     5
     tr之后为echo $[1+2+3+4+5+0]
     最后输出：15
-
+<span class="image-1200">[![](/media/files/2013/05/tr-c.jpg)](http://500px.com/photo/29307621)</span>
 
 描述
 
