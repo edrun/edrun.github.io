@@ -22,10 +22,10 @@ extension=${sa#*.}
 给一个重命名的例子：
 
 >
+
     #!/bin/bash
     #rename txt file
     count=1;
-    
     for txt in *.txt //设定.txt变量
     newtxt=workdc-$count-${txt##*.} //去掉原来的名称添加新命
     do
