@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
-name: [Hi@QlMissQI]$su -c echo $?
+name: "[Hi@QlMissQI]$"
 markdown: rdiscount
 
