@@ -27,8 +27,8 @@ extension=${sa#*.}
     #rename txt file
     count=1;
     for txt in *.txt //设定.txt变量
-    newtxt=workdc-$count-${txt##*.} //去掉原来的名称添加新命
     do
+        newtxt=workdc-$count-${txt##*.} //去掉原来的名称添加新命
         mv "$txt" "$workdc" 2> /dev/null
         if [ $? -eq 0 ]; //上一句是否执行，执行则下一步，否则，done
         then
