@@ -10,6 +10,7 @@ do
 	echo "a. add -Av"
 	echo "c. commit -avm"
 	echo "p. push -v"
+	echo "h. push gh-pages -v"
 	echo "u. pull -v"
 	echo "v. archive"
 	echo "q. exit"
@@ -30,6 +31,9 @@ do
     elif [ "$COMMAND" = "p" ] ; then
 		echo ">> git push -v"
     	git push origin master
+    elif [ "$COMMAND" = "h" ] ; then
+		echo ">> git push hg-pages -v"
+    	git push origin gh-pages
     elif [ "$COMMAND" = "u" ] ; then
 		echo ">> git pull -v"
     	git pull -v
