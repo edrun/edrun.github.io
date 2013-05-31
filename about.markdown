@@ -9,8 +9,8 @@ a
 
 b
 >
-    $find /root -type f -path "school" -print
-    /root/school/桂林电子科技大学/信息对抗技术专业"
+    $find /root -maxdepth 1 -type f -path "school" -print 2> /dev/null
+    /root/school/桂林电子科技大学/信息与通信学院/信息对抗技术专业
 
 o
 >
