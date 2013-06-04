@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 聒噪人生
+title: 易谈
 tags：
-    - life
+   - life
 ---
 
 先天
