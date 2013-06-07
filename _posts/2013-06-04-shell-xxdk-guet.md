@@ -1,6 +1,6 @@
 ---
-layout: post
-title: 初涉
+layout:post
+title:初涉
 tags：
    - 易经
 ---
