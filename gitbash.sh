@@ -1,20 +1,27 @@
 #!/bin/bash
+echo 
+echo 
+echo  "----------------------"
+echo  "Wirtten  for git client."
+echo  "Modify by ql  Ver1.0"
+echo  "----------------------"
 
 COMMAND=""
 while [ "$COMMAND" != "q" ]
 do
 	echo 
-	echo '~~~~~~~~~~~~~~~~~~~~'
+    echo 'Pls be careful to use'
+	echo '---------------------'
 	echo "Select a command:"
 	echo "s. status"
 	echo "a. add -Av"
 	echo "c. commit -avm"
 	echo "p. push -v"
-	echo "h. push gh-pages -v"
+	echo "gh. push gh-pages -v"
 	echo "u. pull -v"
 	echo "v. archive"
 	echo "q. exit"
-	echo '~~~~~~~~~~~~~~~~~~~~'
+	echo '---------------------'
 	read -r -s -n 1 COMMAND
 	echo ''
     if [ "$COMMAND" = "s" ] ; then
@@ -31,7 +38,7 @@ do
     elif [ "$COMMAND" = "p" ] ; then
 		echo ">> git push -v"
     	git push origin master
-    elif [ "$COMMAND" = "h" ] ; then
+    elif [ "$COMMAND" = "gh" ] ; then
 		echo ">> git push hg-pages -v"
     	git push origin gh-pages
     elif [ "$COMMAND" = "u" ] ; then
