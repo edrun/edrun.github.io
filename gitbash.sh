@@ -20,6 +20,7 @@ do
 	echo "gh. push gh-pages -v"
 	echo "u. pull -v"
 	echo "v. archive"
+    echo "sw. show change"
 	echo "q. exit"
 	echo '---------------------'
 	read -r -s -n 1 COMMAND
@@ -41,6 +42,9 @@ do
     elif [ "$COMMAND" = "gh" ] ; then
 		echo ">> git push hg-pages -v"
     	git push origin gh-pages
+    elif [ "$COMMAND" = "sw" ] ; then
+		echo ">> git show"
+    	git show
     elif [ "$COMMAND" = "u" ] ; then
 		echo ">> git pull -v"
     	git pull -v
