@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 回来吧
+title: back from the evil
 tags:
     - 谋
     - 止
@@ -26,3 +26,4 @@ tags:
 兄弟，回来吧！
 
 可以坚守梦想，但不要坚守阵地，如果阵亡了，那世上再没有关于你的流言了。
+
