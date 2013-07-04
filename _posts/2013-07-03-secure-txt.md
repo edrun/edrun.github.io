@@ -20,6 +20,7 @@ tags:
 
 [http://www.atstake.com（@stack公司的网站，国外）](http://www.atstake.com)
 
+
 ###著名的漏洞发布站点
 
 
@@ -39,18 +40,30 @@ tags:
 
 [http://www.cert.org.cn/cert/index.php（中国计算机网络应急处理中心）](中国计算机网络应急处理中心)
 
+
 ###著名的黑客站点
 
+
 [http://www.hack.co.za（国外著名的黑客站点，有较全的exploit库）](http://www.hack.co.za)
+
 [http://www.phrack.com（国外著名的phrack安全杂志）](http://www.phrack.com)
+
 [http://www.antionline.com（国外经典的黑客站点）](http://www.antionline.com)
+
 [http://www.rootshell.com（国外经典的漏洞及exploit库）](http://www.rootshell.com)
+
 [http://whitehats.com（白帽子网站，有最新的IDS规则库下载，关于snort等）](http://whitehats.com)
+
 [http://lsd-pl.net（发布最新的exploits程序）](http://lsd-pl.net)
+
 [http://packetstormsecurity.com（国外著名的漏洞库，有大量expolits程序）](http://packetstormsecurity.com)
+
 [http://oliver.efri.hr/~crv/security/bugs/lists.html（有整理好的最新漏洞库下载）](http://oliver.efri.hr/~crv/security/bugs/lists.html)
+
 [http://astalavista.box.sk（著名的软件破解站点）](http://astalavista.box.sk)
+
 [http://www.3w3.org/ 病毒](http://www.3w3.org/)
+
 [
 http://allhack.com
 本网站提供了图书馆及下载专区。该图书馆为初学者提供了黑客知识和计算机技术基础知识。下载区包括了扫描工具，FLOOD工具，解密工具，拒绝服务攻击等.](http://allhack.com)
@@ -165,17 +178,19 @@ www-arc.com
 
 
 
+
 ### 介绍这么多的国外黑客资源现在来一点安全资料，下面是邮件列表安全方面的，下面是更新及时的邮件列表
 
->http://www.ntsecurity.net通过在线签约网页假如NT列表
->Alert向发送邮件，并在邮件的正文中写入Subscribe alert
->Bug Traq向发送邮件，并在邮件的正文中写入subscribe buy traq
->Cert 并在邮件的正文中写入subscribe
->FreeBSD Hackers Digest 并在邮件的中文中写入subscribe
->Happy Hacker Digest 并在邮件的中文中写入subscribe
->Linux security 并在邮件的中文中写入subscribe
->Linux Admin 并在邮件的中文中写入subscribe linux-admin
->NTBuy Traq maito:LISTSERV@LISTSERV.NTBUYTRAQ.COM并在邮件的中文中写入SUBSCRIBE NTBUYTRAQ firtnamelastname
+http://www.ntsecurity.net通过在线签约网页假如NT列表 
+Alert向发送邮件，并在邮件的正文中写入Subscribe alert    
+Bug Traq向发送邮件，并在邮件的正文中写入subscribe buy traq  
+Cert 并在邮件的正文中写入subscribe  
+FreeBSD Hackers Digest 并在邮件的中文中写入subscribe    
+Happy Hacker Digest 并在邮件的中文中写入subscribe   
+Linux security 并在邮件的中文中写入subscribe    
+Linux Admin 并在邮件的中文中写入subscribe linux-admin   
+NTBuy Traq maito:LISTSERV@LISTSERV.NTBUYTRAQ.COM并在邮件的中文中写入SUBSCRIBE NTBUYTRAQ firtnamelastname    
+
 
 
 
@@ -218,6 +233,7 @@ news://alt.binaries.warez.mac
 news://alt.binariec.warez.macintosh
 
 
+
 ###国外黑客
 
 国外黑客 http://lsd-pl.net/ LsD的站,最新最有效的exploit 
@@ -247,6 +263,7 @@ news://alt.binariec.warez.macintosh
 Larry Seltzer是美国eWEEK.com的安全栏目编辑, 有空的时候可以看看他的关于安全方面的想法.
 
 http://www.security.nnov.ru/
+
 
 
 ### 俄罗斯一个安全站点
@@ -318,3 +335,4 @@ http://www.2600.com/http://slashdot.org/http://www.antionline.com/国外安全 h
 国外黑客 www.win2000mag.net Windows
 
 [转自http://51net.blog.51cto.com/4532638/843334](http://51net.blog.51cto.com/4532638/843334)
+
