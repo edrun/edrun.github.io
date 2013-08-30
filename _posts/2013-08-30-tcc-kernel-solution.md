@@ -38,6 +38,7 @@ Problem 2：
 >
         config %config: scripts_basic outputmakefile FORCE
                 $(Q)mkdir -p include/linux include/config
+
                 $(Q)$(MAKE) $(build)=scripts/kconfig $@
 Solution 1：
 >
