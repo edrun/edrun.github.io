@@ -1,6 +1,6 @@
 ---
-layout: default
-title； 编译脚本
+layout: post
+title: 编译脚本
 tags:
     - work
     - bash
