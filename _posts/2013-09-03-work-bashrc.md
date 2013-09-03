@@ -7,8 +7,8 @@ tags:
 ---
 
 ####被苦力活给搞死了，只好写个蹩脚的脚本来省下手工
->
->
+{
+
 #!/bin/bash
 
 ROOT_DIR=/home/wwt/apps
@@ -45,6 +45,8 @@ ccheck(){
     set -e
 }
 
+{
+
 ##compile the src
 make_p(){
     gvmake clean ;
@@ -52,6 +54,9 @@ make_p(){
     gvmake telechips;
     echo "vodXXX file succed !!!"
 }
+
+{
+
 
 ##copy vod* file to app_id dir
 cp_file(){
@@ -62,6 +67,8 @@ cp_file(){
     cp -f $VOD $app_id/vod$app_id
 
 }
+
+{
 
 ##use gpkg to make the app img
 pkg_file(){
@@ -88,6 +95,9 @@ pkg_file(){
      fi
     
 }
+
+{
+
 
 ##scipt to make the image
 exec_script(){
@@ -146,7 +156,7 @@ esac
 done
 }
 
-
+{
 echo "Plz choice which moc you want to compile:"
 cat << ENTER
 --------------------------------------------- 
@@ -160,6 +170,7 @@ cat << ENTER
 ---                                       -
 ---    5) DB_E                            -
 ---                                       - 
+
 ---    6) DB_F                            -
 ---------------------------------------------
 >>  请选择要编译的模版:
