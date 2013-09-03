@@ -7,11 +7,10 @@ tags:
 ---
 
 ####被苦力活给搞死了，只好写个蹩脚的脚本来省下手工
-{
 
-#!/bin/bash
+>#!/bin/bash
 
-ROOT_DIR=/home/wwt/apps
+>ROOT_DIR=/home/wwt/apps
 PKG_DIR=gpkg/
 DB_A=DB_A_Free_001
 DB_B=DB_B_Free_001
@@ -23,21 +22,21 @@ DB_F=DB_F_Free_001
 
 
 
-#input app_id which will be complie
+>#input app_id which will be complie
 echo "Plz input appid:"
 echo "--------------------------------"
 echo ">> 请输入应用ID："
 read app_id
 
 
-PNG_ORI=$app_id/\*.png
+>PNG_ORI=$app_id/\*.png
 PNG_DEST=$app_id/$app_id.png
 XML=$app_id\*.xml
 VOD=vod\*
-#some useful functions
+>#some useful functions
 
-##chceck the error
-ccheck(){
+>##chceck the error
+>ccheck(){
     set +e
     cmd=$1
     shift
@@ -45,21 +44,20 @@ ccheck(){
     set -e
 }
 
-{
 
-##compile the src
-make_p(){
+>##compile the src
+>make_p(){
     gvmake clean ;
     gvmake distclean;
     gvmake telechips;
     echo "vodXXX file succed !!!"
 }
 
-{
 
 
-##copy vod* file to app_id dir
-cp_file(){
+
+>##copy vod* file to app_id dir
+>cp_file(){
 
     if [ -f $app_id/vod$app_id ]; then
        rm -f $app_id/vod$app_id
@@ -68,10 +66,10 @@ cp_file(){
 
 }
 
-{
 
-##use gpkg to make the app img
-pkg_file(){
+
+>##use gpkg to make the app img
+>pkg_file(){
 
     if [ !  -f  $PNG_DEST  ]; then
        mv -f  $PNG_ORI   $PNG_DEST
@@ -96,37 +94,37 @@ pkg_file(){
     
 }
 
-{
 
 
-##scipt to make the image
-exec_script(){
 
-while [ "$args" != "q" ]
-do
-cat << ENTER
----------------------------------------
---    Usage: $0 map|pkg       --
---    -map   complie the soure ,src  --
---    -pkg    package the packages   -- 
---    -q     exit                    --
----------------------------------------
+>##scipt to make the image
+>exec_script(){
+
+>while [ "$args" != "q" ]
+>do
+>cat << ENTER
+>---------------------------------------
+>--    Usage: $0 map|pkg       --
+>--    -map   complie the soure ,src  --
+>--    -pkg    package the packages   -- 
+>--    -q     exit                    --
+>---------------------------------------
 >> 请选择参数：	 
-ENTER
+>ENTER
 
 
-read args
+>read args
 
-case "$args" in
-map)  if [ ! -d $ROOT_DIR/$SUB_DIR/$PKG_DIR$app_id ]; then
+>case "$args" in
+>map)  if [ ! -d $ROOT_DIR/$SUB_DIR/$PKG_DIR$app_id ]; then
           mkdir $ROOT_DIR/$SUB_DIR/$PKG_DIR$app_id
       fi
       cd $ROOT_DIR/$SUB_DIR
       ccheck make_p         
       echo "成功生成vod文件！！"
       continue
-      
-;;
+>      
+>;;
 pkg)  cd  $ROOT_DIR/$SUB_DIR/$PKG_DIR
 
       if [ -d $app_id ]; then
@@ -147,17 +145,17 @@ pkg)  cd  $ROOT_DIR/$SUB_DIR/$PKG_DIR
       ls -ahl *.pkg
       echo 
       echo "*****************************************************"
-      continue 
-;;
-q)  exit 0
-;;
+>      continue 
+>;;
+>q)  exit 0
+>;;
 esac
 
-done
-}
+>done
+>}
 
-{
-echo "Plz choice which moc you want to compile:"
+
+>echo "Plz choice which moc you want to compile:"
 cat << ENTER
 --------------------------------------------- 
 ---    1) DB_A                          -----
@@ -175,11 +173,11 @@ cat << ENTER
 ---------------------------------------------
 >>  请选择要编译的模版:
 ENTER
-
-##input the choice:1 2 3 4 5 6 
+>
+>##input the choice:1 2 3 4 5 6 
 read choice
 
-case "$choice" in
+>case "$choice" in
 1)    SUB_DIR=$DB_A
        exec_script      
     ;;
