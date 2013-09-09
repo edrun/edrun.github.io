@@ -77,4 +77,4 @@ tags:
 	#neww zsh
 	#selectw -t 3 # 默认选择标号为 3 的窗口
 
-
+<span class="image-1200">[![](/media/files/2013/05/tmux.jpg)](http://500px.com/photo/29307621)</span>
