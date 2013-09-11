@@ -5,7 +5,7 @@ layout: page
 
 a
 >
-	$tr -s "qledrun" "黄庆隆" <网络.name  >中文.name
+	$tr -s "qledrun" "Davis" <nick.name  >my.name
 
 b
 >
@@ -14,17 +14,16 @@ b
 
 o
 >
-	$echo "|思考|代码|K歌|吉他|小忧郁|奋斗|小说|翻译|野心|兰花|小七|"|tee nowdays
+	$echo "|思考|代码|K歌|吉他|小七|"|tee nowdays
 
 u
 >      
-	$cat  work.txt|grep "Tec. Support Engineer."
+	$cat  work.txt|grep "FAE"
    >[GreatVision Co.,Ltd.](http://www.gvtv.com.cn)
-    start: 2013-03  end: NULL  Work as a Tec. Support Engineer.
 >
 	$cat  work.txt|grep "Software Engineer."
    >[Realtek Co.,Ltd](http://www.realtek.com.tw)
-    start: 2012-02  end: 2012-12 Work as a Software Engineer.
+
 
 t
 >
