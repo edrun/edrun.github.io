@@ -3,6 +3,15 @@ title: about
 layout: page
 ---
 
+@me
+
+I am here.
+>[github](http://github.com/edrun)
+or
+>[+1](https://plus.google.com/u/0/116057609163918027040/posts)
+or follow me
+>[@佛如马蹄欧诺](http://weibo.com/1888855315/profile?from=profile&wvr=5&loc=tabprofile#profile_tab)
+
 a
 >
 	$tr -s "qledrun" "Davis" <nick.name  >my.name
@@ -30,14 +39,6 @@ t
 		email.
 		$echo "dyrqeha@tznvy.pbz" | python -c 'import sys; print sys.stdin.read().encode("rot13")'
 
-@me
-
-I am here.
->[github](http://github.com/edrun)
-or
->[+1](https://plus.google.com/u/0/116057609163918027040/posts)
-or follow me
->[@佛如马蹄欧诺](http://weibo.com/1888855315/profile?from=profile&wvr=5&loc=tabprofile#profile_tab)
 
 
 
