@@ -38,12 +38,12 @@
             </nav>
         </div>
     </div>
-    <script src="http://cdn.craig.is/js/yepnope.1.5.4.min.js?7410f"></script>
+    <script src="/sub/js/yepnope.1.5.4.min.js"></script>
     <script>
         var width = window.innerWidth || document.documentElement.offsetWidth || document.body.offsetWidth;
         yepnope({
             test: width >= 512,
-            yep: ["http://cdn.craig.is/js/jquery-1.10.2.min.js?7410f", "http://cdn.craig.is/js/jquery-tooltip.min.js?28fa2"],
+            yep: ["/sub/js/jquery-1.10.2.min.js", "/sub/js/jquery-tooltip.min.js"],
             complete: function() {
                 if (window.jQuery) {
                     $(function() {
