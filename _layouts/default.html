@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Qinglong Huang" />
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ site.name }}</title>
+    {% endif %}
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <link rel="stylesheet" href="/media/css/fontawesome.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/media/css/fontawesome-ie7.css">
+    <![endif]-->
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+  <body>
+      <div id="main" role="main">
+        <header>
+          <div id="header">
+            <h1><a title="{{ site.name }}" class="" href="/">{{ site.name }}</a></h1>
+          </div>
+          <nav>
+<!--        <span><a title="主页" class="icon-list-ul" href="/"></a></span>
+            <span><a title="博客" class="icon-tags" href="/blogs.html"></a></span>
+            <span><a title="关于我" class="icon-user" href="/about.html"></a></span>
+            <span><a title="翻译计划" class="icon-film" href="http://edrun.github.io/lazycat/"></a></span>
+            <span><a title="项目" class="icon-link" href="http://edrun.github.io/gapp/"></a></span>
+            <span><a title="订阅" class="icon-rss" href="/atom.xml"></a></span>
+-->
+            <span><a title="主页" class="" href="/">HOME</a></span>
+            <!--<span><a title="博客" class="" href="/blogs.html">归档</a></span>-->
+            <span><a title="关于我" class="" href="/about.html">Resume</a></span>
+            <span><a title="blog" class="" href="http://edrun.github.io/lazycat/">Lazycat</a></span>
+            <span><a title="项目" class="" href="http://edrun.github.io/gapp/">Projects</a></span>
+           <!-- <span><a title="订阅" class="" href="/atom.xml">订阅</a></span>
+            <span><a title="标签" class="" href="/tags.html">标签</a></span>-->
+          </nav>
+        </header>
+        <div id="content">
+        {{ content }}
+        </div>
+        <footer>
+          <div>
+            &copy; 2013 qlhuang | powered by jekyll 
+          </div>
+        </footer>
+      </div> <!-- main -->
+  </body>
+</html>

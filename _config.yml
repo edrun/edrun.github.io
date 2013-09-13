@@ -1,0 +1,6 @@
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:day/:title.html
+name: "[Hi@QlMissQi]$sudo chattr +i / -R"
+markdown: rdiscount
+
