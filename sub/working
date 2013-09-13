@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0">
+<meta name="author" content="Craig Campbell">
+<meta name="description" content="Craig Campbell's personal website with music, portfolio, blog, resume, and contact information">
+<meta itemprop="image" content="http://cdn.craig.is/img/favicon/star-128.png">
+<title>Craig Campbell - Resume</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="http://cdn.craig.is/img/favicon/star.ico">
+<link rel="shortcut icon" type="image/x-icon" href="http://cdn.craig.is/img/favicon/star-16.png">
+
+<link href="http://cdn.craig.is/css/base.css?e9a36" rel="stylesheet" type="text/css" media="screen">
+<script>
+    var width = window.innerWidth || document.documentElement.offsetWidth || document.body.offsetWidth;
+    if (width >= 512) {
+        document.documentElement.className = 'js';
+    }
+</script>
+<!--[if lt IE 9]>
+<script src="http://cdn.craig.is/js/html5.js?7410f"></script>
+<![endif]-->
+<body class="main">
+    <div id="content">
+        <header>
+            <div class="wrapper">
+                <h2><a href="/"><em>Craig Campbell</em></a></h2>
+                <nav class="top">
+                    <ul>
+                        <li id="computer"><a href="/programming" title="Projects">Projects<span><!--:)--></span></a>
+                        <li id="music"><a href="/playing-music" title="Music">Music<span><!--:)--></span></a>
+                        <li id="design"><a href="/designing" title="Design">Design<span><!--:)--></span></a>
+                        <li id="tumblr"><a href="http://craigiam.tumblr.com" target="_blank" title="Blog">Tumblr<span><!--:)--></span></a>
+                        <li id="resume"><a href="/working" title="Resume">Resume<span><!--:)--></span></a>
+                        <li id="contact"><a href="/online" title="Contact">Contact<span><!--:)--></span></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div id="view_content">
+        <div class="wrapper">
+            <div class="resume">
+    <h1>Resume</h1>
+    <ul class="global_links">
+        <li><a href="#" class="expand">expand all</a></li>
+        <li><a href="#" class="collapse">collapse all</a></li>
+    </ul>
+
+    <h2 class="first">Education</h2>
+    <div class="education">
+        <div class="main_info">
+            <p>
+                New York University<br />
+                Bachelor of Music in Music Technology
+            </p>
+        </div>
+        <a href="#" class="toggle"><span><!--:)--></span></a>
+        <div class="more_info">
+            <p>
+                Graduated: 2008<br />
+                GPA 3.56/4.0
+            </p>
+        </div>
+    </div>
+
+    <h2>Honors</h2>
+    <p>
+        <em>cum laude</em><br />
+        Dean's list
+    </p>
+
+    <h2>Work History</h2>
+
+    <ul class="jobs">
+        <li>
+            <div class="main_info">
+                <p>
+                    <strong>Vimeo</strong> - New York, New York
+                </p>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <p>
+                    Senior Developer<br>
+                    03/2010 - Present
+                </p>
+            </div>
+
+        <li>
+            <div class="main_info">
+                <p>
+                    <strong>Schematic</strong> - New York, New York
+                </p>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <p>
+                    Software Developer - Open Source Platforms Group<br>
+                    05/2008 - 02/2010
+                </p>
+                <ul>
+                    <li>Web application development</li>
+                    <li>PHP5, Zend Framework, SPL, APC, Memcached, MySql, Oracle, etc.</li>
+                    <li>Emphasis on object-oriented design and scalability</li>
+                </ul>
+            </div>
+
+        <li>
+            <div class="main_info">
+                <p>
+                    <strong>J2C Media</strong> - New  York, New York
+                </p>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <p>
+                    Freelance Web Development/Design<br>
+                    03/2007 - 06/2010
+                </p>
+                <ul>
+                    <li>Web application development and design</li>
+                </ul>
+            </div>
+
+        <li>
+            <div class="main_info">
+                <p>
+                    <strong>Ben Larrabee Photography LLC</strong> - Darien, Connecticut
+                </p>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <p>
+                    Photolab Assistant<br>
+                    11/2003 - 03/2008
+                </p>
+                <ul>
+                    <li>Backed up photos to DVD/Managed iPhoto Libraries</li>
+                    <li>Updated/managed images on website</li>
+                </ul>
+            </div>
+
+        <li>
+            <div class="main_info">
+                <p>
+                    <strong>Apple, Inc.</strong> - Stamford, Connecticut
+                </p>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <p>
+                    Mac Specialist<br>
+                    06/2006 - 02/2008
+                </p>
+                <ul>
+                    <li>Helped solve/troubleshoot customers problems/concerns</li>
+                    <li>Provided software/hardware demonstrations and one on one training to customers</li>
+                </ul>
+            </div>
+
+        <li>
+            <div class="main_info">
+                <p>
+                    <strong>Greenwich Library</strong> - Greenwich, Connecticut
+                </p>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <p>
+                    Page<br>
+                    06/2000 - 08/2004
+                </p>
+                <ul>
+                    <li>Shelved books and other library media</li>
+                    <li>Assisted patrons locating materials</li>
+                </ul>
+            </div>
+    </ul>
+
+    <h2>Computer Skills</h2>
+    <ul class="skills">
+        <li>
+            <div class="main_info">
+            <h3>Operating Systems</h3>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <ul>
+                    <li>Mac OS X</li>
+                    <li>Linux</li>
+                    <li>Windows</li>
+                </ul>
+            </div>
+
+        <li>
+            <div class="main_info">
+            <h3>Programming Languages</h3>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <ul>
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>SASS</li>
+                    <li>SQL</li>
+                    <li>MML</li>
+                </ul>
+            </div>
+
+        <li>
+            <div class="main_info">
+            <h3>Frameworks</h3>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <ul>
+                    <li>jQuery</li>
+                    <li>Sonic</li>
+                    <li>MooTools</li>
+                    <li>Zend Framework</li>
+                </ul>
+            </div>
+        <li>
+            <div class="main_info">
+            <h3>Software</h3>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <ul>
+                    <li>TextMate</li>
+                    <li>SublimeText</li>
+                    <li>Adobe CS5 Suite</li>
+                    <li>Office</li>
+                    <li>iWork</li>
+                    <li>Pro Tools</li>
+                </ul>
+            </div>
+
+        <li>
+            <div class="main_info">
+            <h3>Tools</h3>
+            </div>
+            <a href="#" class="toggle"><span><!--:)--></span></a>
+            <div class="more_info">
+                <ul>
+                    <li>Apache</li>
+                    <li>Git</li>
+                    <li>Subversion</li>
+                    <li>MySql</li>
+                    <li>Oracle</li>
+                </ul>
+            </div>
+    </ul>
+
+    <h2>Additional Information</h2>
+    <p><a href="/programming">Click here</a> for online portfolio</p>
+</div>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="bottom">
+            <ul>
+                <li><a href="/programming" title="Projects">Projects<span><!--:)--></span></a>
+                <li><a href="/playing-music" title="Music">Music<span><!--:)--></span></a>
+                <li><a href="/designing" title="Design">Design<span><!--:)--></span></a>
+                <li><a href="http://craigiam.tumblr.com" target="_blank" title="Blog">Tumblr<span><!--:)--></span></a>
+                <li><a href="/working" title="Resume">Resume<span><!--:)--></span></a>
+                <li><a href="/online" title="Contact">Contact<span><!--:)--></span></a>
+            </ul>
+        </nav>
+        <p>The content on this site is from twenty thirteen.</p>
+    </footer>
+    <script src="http://cdn.craig.is/js/yepnope.1.5.4.min.js?7410f"></script>
+    <script>
+        yepnope({
+            test: width >= 512,
+            yep: ["http://cdn.craig.is/js/jquery-1.10.2.min.js?7410f", "http://cdn.craig.is/js/jquery-tooltip.min.js?28fa2", "http://cdn.craig.is/js/resume.min.js?7410f"],
+            complete: function() {
+                if (window.jQuery) {
+                    $(function() {
+                        $("nav li a, ul.internet a").tooltip({
+                            position: "top",
+                            padding: 13
+                        });
+                    });
+                }
+            }
+        });
+    </script>
+        <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7604706-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        }) ();
+    </script>
+</body>

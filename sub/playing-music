@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0">
+<meta name="author" content="Craig Campbell">
+<meta name="description" content="Craig Campbell's personal website with music, portfolio, blog, resume, and contact information">
+<meta itemprop="image" content="http://cdn.craig.is/img/favicon/star-128.png">
+<title>Craig Campbell - Music</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="http://cdn.craig.is/img/favicon/star.ico">
+<link rel="shortcut icon" type="image/x-icon" href="http://cdn.craig.is/img/favicon/star-16.png">
+
+<link href="http://cdn.craig.is/css/base.css?e9a36" rel="stylesheet" type="text/css" media="screen">
+<script>
+    var width = window.innerWidth || document.documentElement.offsetWidth || document.body.offsetWidth;
+    if (width >= 512) {
+        document.documentElement.className = 'js';
+    }
+</script>
+<!--[if lt IE 9]>
+<script src="http://cdn.craig.is/js/html5.js?7410f"></script>
+<![endif]-->
+<body class="main">
+    <div id="content">
+        <header>
+            <div class="wrapper">
+                <h2><a href="/"><em>Craig Campbell</em></a></h2>
+                <nav class="top">
+                    <ul>
+                        <li id="computer"><a href="/programming" title="Projects">Projects<span><!--:)--></span></a>
+                        <li id="music"><a href="/playing-music" title="Music">Music<span><!--:)--></span></a>
+                        <li id="design"><a href="/designing" title="Design">Design<span><!--:)--></span></a>
+                        <li id="tumblr"><a href="http://craigiam.tumblr.com" target="_blank" title="Blog">Tumblr<span><!--:)--></span></a>
+                        <li id="resume"><a href="/working" title="Resume">Resume<span><!--:)--></span></a>
+                        <li id="contact"><a href="/online" title="Contact">Contact<span><!--:)--></span></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div id="view_content">
+        <div class="wrapper">
+            <h1 class="music">Music</h1>
+<p class="summary">I play in a band called <a href="http://spacecommandmusic.com" target="_blank">Space Command</a>.</p>
+<p class="summary">We just released our debut album called <a href="http://spacecommand.bandcamp.com" target="_blank">Machines Make Music</a>.  You can listen to it here:</p>
+
+<div class="bandcamp">
+<iframe frameborder="0" src="http://bandcamp.com/EmbeddedPlayer/album=2953994299/size=large/bgcol=ffffff/linkcol=0687f5/notracklist=true/transparent=true/" seamless><a href="http://spacecommand.bandcamp.com/album/machines-make-music">Machines Make Music by Space Command</a></iframe>
+</div>
+
+<!--
+<p>Here are some tunes I have written/produced over the years:</p>
+     <ul class="timeline">
+    <li>
+        <div class="info">
+            <h3 class="purple">2011</h3>
+            <div class="frame">
+                <img src="http://cdn.craig.is/img/space.jpg" alt="Space Command">
+                <h4>Space Command</h4>
+            </div>
+            <div class="songs">
+                <h5>Ryu vs. Chun-Li</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/ryuvschunli.mp3&amp;color=231069&amp;hover=190c49&amp;duration=0" width="200" height="53"></iframe>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <h3 class="purple">2010</h3>
+            <div class="frame">
+                <img src="http://cdn.craig.is/img/space.jpg" alt="Space Command">
+                <h4>Space Command</h4>
+            </div>
+            <div class="songs">
+                <h5>Two Years</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/twoyears.mp3&amp;color=231069&amp;hover=190c49&amp;duration=0" width="200" height="53"></iframe>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <h3 class="purple">2007</h3>
+            <div class="frame">
+                <img src="http://cdn.craig.is/img/space.jpg" alt="Space Command">
+                <h4>Space Command</h4>
+            </div>
+            <div class="songs">
+                <h5>Graveyard Shift</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/graveyardshift.mp3&amp;color=231069&amp;hover=190c49&amp;duration=0" width="200" height="53"></iframe>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <h3 class="blue">2005</h3>
+            <div class="frame">
+                <img src="http://cdn.craig.is/img/wytyk.jpg" alt="Lime Street Morning - What You Think You Know">
+                <h4>Lime Street Morning</h4>
+            </div>
+            <div class="songs">
+                <h5>It Must Be In The Stars</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/itmustbeinthestars.mp3&amp;color=579cc4&amp;hover=3a789c&amp;duration=0" width="200" height="53"></iframe>
+
+                <h5>Just Like Moon Shoes</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/moonshoes.mp3&amp;color=579cc4&amp;hover=3a789c&amp;duration=0" width="200" height="53"></iframe>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <h3 class="green">2004</h3>
+            <div class="frame">
+                <img src="http://cdn.craig.is/img/aphase.jpg" alt="Lime Street Morning - A Phase">
+                <h4>Lime Street Morning</h4>
+            </div>
+            <div class="songs">
+                <h5>It's Going To Be All Right</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/itsgoingtobeallright.mp3&amp;color=00c427&amp;hover=1b8f0b&amp;duration=0" width="200" height="53"></iframe>
+
+                <h5>Closer To Me</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/closertome.mp3&amp;color=00c427&amp;hover=1b8f0b&amp;duration=0" width="200" height="53"></iframe>
+
+                <h5>It Seems Like It's Gone</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/itseemslikeitsgone.mp3&amp;color=00c427&amp;hover=1b8f0b&amp;duration=0" width="200" height="53"></iframe>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="info">
+            <h3 class="yellow">2003</h3>
+            <div class="frame">
+                <img src="http://cdn.craig.is/img/twilight.jpg" alt="Twilight - Island Asphalt">
+                <h4>Twilight</h4>
+            </div>
+            <div class="songs">
+                <h5>All You've Got</h5>
+                <iframe src="http://loop.ly/s?url=http://wakeupsnorlax.com/allyouvegot.mp3&amp;color=ede10c&amp;hover=d4ca0c&amp;duration=0" width="200" height="53"></iframe>
+            </div>
+        </div>
+    </li>
+</ul>
+-->
+        </div>
+    </div>
+
+    <footer>
+        <nav class="bottom">
+            <ul>
+                <li><a href="/programming" title="Projects">Projects<span><!--:)--></span></a>
+                <li><a href="/playing-music" title="Music">Music<span><!--:)--></span></a>
+                <li><a href="/designing" title="Design">Design<span><!--:)--></span></a>
+                <li><a href="http://craigiam.tumblr.com" target="_blank" title="Blog">Tumblr<span><!--:)--></span></a>
+                <li><a href="/working" title="Resume">Resume<span><!--:)--></span></a>
+                <li><a href="/online" title="Contact">Contact<span><!--:)--></span></a>
+            </ul>
+        </nav>
+        <p>The content on this site is from twenty thirteen.</p>
+    </footer>
+    <script src="http://cdn.craig.is/js/yepnope.1.5.4.min.js?7410f"></script>
+    <script>
+        yepnope({
+            test: width >= 512,
+            yep: ["http://cdn.craig.is/js/jquery-1.10.2.min.js?7410f", "http://cdn.craig.is/js/jquery-tooltip.min.js?28fa2"],
+            complete: function() {
+                if (window.jQuery) {
+                    $(function() {
+                        $("nav li a, ul.internet a").tooltip({
+                            position: "top",
+                            padding: 13
+                        });
+                    });
+                }
+            }
+        });
+    </script>
+        <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7604706-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        }) ();
+    </script>
+</body>
